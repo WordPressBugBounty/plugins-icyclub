@@ -1,9 +1,9 @@
 === Icyclub ===
-Contributors: Themeicy
+Contributors: themeansar
 Tags: theme demos, demo, importer, one click import
 Requires at least: 4.7
-Tested up to: 6.5.3
-Stable tag: 2.5
+Tested up to: 6.8.1
+Stable tag: 2.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -21,6 +21,9 @@ The Icyclub plugin features include:
 - and many other features
 
 == Changelog ==
+= 2.6 =
+* Tested 6.8.1 Version.
+
 = 2.5 =
 * Update tag.
 
