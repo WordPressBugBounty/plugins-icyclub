@@ -53,7 +53,7 @@ Slider Section
 -----------------------------------------*/
 $wp_customize->add_section(
 	'yoga_slider_section_settings', array(
-	'title' => __('Slider Section','yoga'),
+	'title' => __('Slider Section','icyclub'),
 	'panel'  => 'homepage_setting',
 	'priority'   => 1,
 ) );
@@ -66,7 +66,7 @@ $wp_customize->add_section(
 	));
 	$wp_customize->add_control( new Icycp_Yoga_Toggle_Switch_Custom_control( $wp_customize, 'yoga_slider_enable',
 	 array(
-		'label'   => __('Enable/Diaable Section', 'yoga'),
+		'label'   => __('Enable/Diaable Section', 'icyclub'),
 		'section' => 'yoga_slider_section_settings',
 		'type'    => 'radio',
 		'choices'=>array('1'=>'On','0'=>'Off'),
@@ -81,7 +81,7 @@ $wp_customize->add_section(
 	
 	$wp_customize->add_control(new Yoga_Customize_Alpha_Color_Control( $wp_customize,
 		'yoga_slider_overlay_color', array(
-		'label'      => __('Overlay Color', 'yoga' ),
+		'label'      => __('Overlay Color', 'icyclub' ),
 		'palette' => true,
 		'section' => 'yoga_slider_section_settings')
 	) );
@@ -91,10 +91,10 @@ $wp_customize->add_section(
 		) );
 
 		$wp_customize->add_control( new Yoga_Repeater_Control( $wp_customize, 'yoga_slider_content', array(
-			'label'                             => esc_html__( 'Slider Content', 'yoga' ),
+			'label'                             => esc_html__( 'Slider Content', 'icyclub' ),
 			'section'                           => 'yoga_slider_section_settings',
-			'add_field_label'                   => esc_html__( 'Add new slider', 'yoga' ),
-			'item_name'                         => esc_html__( 'Slide', 'yoga' ),
+			'add_field_label'                   => esc_html__( 'Add new slider', 'icyclub' ),
+			'item_name'                         => esc_html__( 'Slide', 'icyclub' ),
 			'customizer_repeater_title_control' => true,
 			'customizer_repeater_text_control'  => true,
 			'customizer_repeater_button_text_control' => true,
@@ -115,27 +115,27 @@ $wp_customize->add_section(
 
 					$defaults = array(
 						array(
-						'slider_title'      => esc_html__( 'You can simply control what goes ahead inside', 'yoga' ),
-						'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'yoga' ),
-						'btnone'      => __('Read More','yoga'),
+						'slider_title'      => esc_html__( 'You can simply control what goes ahead inside', 'icyclub' ),
+						'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'icyclub' ),
+						'btnone'      => __('Read More','icyclub'),
 						'btnonelink'       => '#',
 						'image_uri'  => ICYCP_PLUGIN_URL .'inc/yoga/images/slider/slider1.jpg',
 						'open_btnone_new_window' => 'no',
 						),
 		
 						array(
-							'slider_title'      => esc_html__( 'Transform your body with a yoga coach', 'yoga' ),
-							'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'yoga' ),
-							'btnone'      => __('Read More','yoga'),
+							'slider_title'      => esc_html__( 'Transform your body with a yoga coach', 'icyclub' ),
+							'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'icyclub' ),
+							'btnone'      => __('Read More','icyclub'),
 							'btnonelink'       => '#',
 							'image_uri'  => ICYCP_PLUGIN_URL .'inc/yoga/images/slider/slider2.jpg',
 							'open_btnone_new_window' => 'no',
 							),
 		
 						array(
-							'slider_title'      => esc_html__( 'Confinement and find your brain', 'yoga' ),
-							'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'yoga' ),
-							'btnone'      => __('Read More','yoga'),
+							'slider_title'      => esc_html__( 'Confinement and find your brain', 'icyclub' ),
+							'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'icyclub' ),
+							'btnone'      => __('Read More','icyclub'),
 							'btnonelink'       => '#',
 							'image_uri'  => ICYCP_PLUGIN_URL .'inc/yoga/images/slider/slider1.jpg',
 							'open_btnone_new_window' => 'no',
@@ -312,7 +312,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new Yoga_Customize_Alpha_Color_Control( $wp_customize,'yoga_service_overlay_color', array(
-		   'label'      => __('Overlay Color','yoga' ),
+		   'label'      => __('Overlay Color','icyclub' ),
 			'palette' => true,
 			'section' => 'yoga_service_section_settings')
 		) );
@@ -324,7 +324,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize,'yoga_service_text_color', array(
-		   'label'      => __('Text Color','yoga' ),
+		   'label'      => __('Text Color','icyclub' ),
 			'palette' => true,
 			'section' => 'yoga_service_section_settings')
 		) );
@@ -338,7 +338,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );	
 		$wp_customize->add_control( 
 			'yoga_service_title',array(
-			'label'   => __('Title','yoga'),
+			'label'   => __('Title','icyclub'),
 			'section' => 'yoga_service_section_settings',
 			'type' => 'text',
 		) );
@@ -351,7 +351,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'transport' => $selective_refresh,
 		) );  
 		$wp_customize->add_control( 'yoga_service_subtitle', array(
-			'label'   => __('Description','yoga'),
+			'label'   => __('Description','icyclub'),
 			'section' => 'yoga_service_section_settings',
 			'type' => 'textarea',
 		) );
@@ -362,10 +362,10 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			) );
 
 			$wp_customize->add_control( new Yoga_Repeater_Control( $wp_customize, 'yoga_service_content', array(
-				'label'                             => esc_html__( 'Service Content', 'yoga' ),
+				'label'                             => esc_html__( 'Service Content', 'icyclub' ),
 				'section'                           => 'yoga_service_section_settings',
-				'add_field_label'                   => esc_html__( 'Add new Service', 'yoga' ),
-				'item_name'                         => esc_html__( 'Service', 'yoga' ),
+				'add_field_label'                   => esc_html__( 'Add new Service', 'icyclub' ),
+				'item_name'                         => esc_html__( 'Service', 'icyclub' ),
 				'customizer_repeater_icon_control' => true,
 				'customizer_repeater_title_control' => true,
 				'customizer_repeater_text_control'  => true,
@@ -382,27 +382,27 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 					$defaults = array(
 						array(
 						'fa_icon' => 'fa fa-child',	
-						'service_title'      => esc_html__( 'Lotus position', 'yoga' ),
-						'service_desc'       => esc_html__( 'laoreet ipsum eu laoreet. ugiignissimat Vivamus.', 'yoga' ),
-						'btnmore'      => __('Read More','yoga'),
+						'service_title'      => esc_html__( 'Lotus position', 'icyclub' ),
+						'service_desc'       => esc_html__( 'laoreet ipsum eu laoreet. ugiignissimat Vivamus.', 'icyclub' ),
+						'btnmore'      => __('Read More','icyclub'),
 						'btnlink'       => '#',
 						'open_new_window' => 'no',
 						),
 				  
 						array(
 						  'fa_icon' => 'fa fa-handshake-o',	
-						  'service_title'      => esc_html__( 'Bakasana', 'yoga' ),
-						  'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'yoga' ),
-						  'btnmore'      => __('Read More','yoga'),
+						  'service_title'      => esc_html__( 'Bakasana', 'icyclub' ),
+						  'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'icyclub' ),
+						  'btnmore'      => __('Read More','icyclub'),
 						  'btnlink'       => '#',
 						  'open_new_window' => 'no',
 						),
 					
 						array(
 						  'fa_icon' => 'fa fa-thumbs-up',	
-						  'service_title'      => esc_html__( 'Handstand', 'yoga' ),
-						  'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'yoga' ),
-						  'btnmore'      => __('Read More','yoga'),
+						  'service_title'      => esc_html__( 'Handstand', 'icyclub' ),
+						  'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'icyclub' ),
+						  'btnmore'      => __('Read More','icyclub'),
 						  'btnlink'       => '#',
 						  'open_new_window' => 'no',
 						),		
@@ -636,7 +636,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
 /* Callout Section */
 	$wp_customize->add_section( 'yoga_callout_section_settings' , array(
-		'title'      => __('Callout Secton','yoga'),
+		'title'      => __('Callout Secton','icyclub'),
 		'panel'  => 'homepage_setting',
 		'priority'   => 4,
    	) );
@@ -667,7 +667,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				'yoga_callout_background',
 				array(
 					'type'        => 'upload',
-					'label' => __('Choose Background Image','yoga'),
+					'label' => __('Choose Background Image','icyclub'),
 					'settings' =>'yoga_callout_background',
 					'section' => 'yoga_callout_section_settings',
 					
@@ -681,7 +681,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
             ) );	
             
             $wp_customize->add_control(new Yoga_Customize_Alpha_Color_Control( $wp_customize,'yoga_callout_overlay_color', array(
-               'label'      => __('Overlay Color','yoga'),
+               'label'      => __('Overlay Color','icyclub'),
                 'palette' => true,
                 'section' => 'yoga_callout_section_settings')
             ) );
@@ -693,7 +693,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new Yoga_Customize_Alpha_Color_Control( $wp_customize,'yoga_callout_text_color', array(
-		    'label'   => __('Text Color','yoga' ),
+		    'label'   => __('Text Color','icyclub' ),
 			'palette' => true,
 			'section' => 'yoga_callout_section_settings')
 		) );
@@ -701,12 +701,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout title
 		$wp_customize->add_setting( 'yoga_callout_title',array(
-		'default' => __('Certified Yoga Professionals. Try Today!','yoga'),
+		'default' => __('Certified Yoga Professionals. Try Today!','icyclub'),
 		'sanitize_callback' => 'icycp_yoga_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'yoga_callout_title',array(
-		'label'   => __('Title','yoga'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'yoga_callout_section_settings',
 		'type' => 'text',
 		));	
@@ -718,7 +718,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'yoga_callout_description',array(
-		'label'   => __('Description','yoga'),
+		'label'   => __('Description','icyclub'),
 		'section' => 'yoga_callout_section_settings',
 		'type' => 'textarea',
 		));
@@ -726,12 +726,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout button text
 		$wp_customize->add_setting( 'yoga_callout_button_one_label',array(
-		'default' => __('Get Started Now!','yoga'),
+		'default' => __('Get Started Now!','icyclub'),
 		'sanitize_callback' => 'icycp_yoga_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'yoga_callout_button_one_label',array(
-		'label'   => __('Button Text','yoga'),
+		'label'   => __('Button Text','icyclub'),
 		'section' => 'yoga_callout_section_settings',
 		'type' => 'text',
 		));
@@ -743,7 +743,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'yoga_callout_button_one_link',array(
-		'label'   => __('Button Link','yoga'),
+		'label'   => __('Button Link','icyclub'),
 		'section' => 'yoga_callout_section_settings',
 		'type' => 'text',
 		));
@@ -756,7 +756,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'sanitize_callback' => 'icycp_yoga_home_page_sanitize_text',
 		));
 		$wp_customize->add_control('yoga_callout_button_one_target', array(
-			'label'   => __('Open link in new tab/window','yoga'),
+			'label'   => __('Open link in new tab/window','icyclub'),
 			'section' => 'yoga_callout_section_settings',
 			'type' => 'checkbox',
 		));
@@ -885,12 +885,12 @@ if ( ! function_exists( 'icycp_yoga_testimonial_customize_register' ) ) :
 		// Testimonial section title
 		$wp_customize->add_setting( 'yoga_testimonial_section_title',array(
 			'capability'     => 'edit_theme_options',
-			'default' => __('Happy Customers','yoga'),
+			'default' => __('Happy Customers','icyclub'),
 			'sanitize_callback' => 'icycp_yoga_home_page_sanitize_text',
 			'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'yoga_testimonial_section_title',array(
-			'label'   => __('Title','yoga'),
+			'label'   => __('Title','icyclub'),
 			'section' => 'yoga_testimonial_section',
 			'type' => 'text',
 		));	
@@ -913,10 +913,10 @@ if ( ! function_exists( 'icycp_yoga_testimonial_customize_register' ) ) :
 			) );
 	
 			$wp_customize->add_control( new Yoga_Repeater_Control( $wp_customize, 'yoga_testimonial_content', array(
-				'label'                             => esc_html__( 'Testimonial content', 'yoga' ),
+				'label'                             => esc_html__( 'Testimonial content', 'icyclub' ),
 				'section'                           => 'yoga_testimonial_section',
-				'add_field_label'                   => esc_html__( 'Add new Testimonial', 'yoga' ),
-				'item_name'                         => esc_html__( 'Testimonial', 'yoga' ),
+				'add_field_label'                   => esc_html__( 'Add new Testimonial', 'icyclub' ),
+				'item_name'                         => esc_html__( 'Testimonial', 'icyclub' ),
 				'customizer_repeater_text_control' => true,
 				'customizer_repeater_title_control'  => true,
 				'customizer_repeater_designation_control' => true,
@@ -933,7 +933,7 @@ if ( ! function_exists( 'icycp_yoga_testimonial_customize_register' ) ) :
 				'title' => 'Williams Moore',	
 				'designation2'      => ' Company inc',
 				'text'       => 'Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium',
-				'designation' => __('Creative Designer','yoga'),
+				'designation' => __('Creative Designer','icyclub'),
 				'image_url'  => ICYCP_PLUGIN_URL .'inc/yoga/images/testimonial/testi1.jpg',
 				'open_new_tab' => 'no',
 				),
@@ -942,7 +942,7 @@ if ( ! function_exists( 'icycp_yoga_testimonial_customize_register' ) ) :
 				'title' => 'Sara Williams',	
 				'designation2'      => ' Company inc',
 				'text'       => 'Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium',
-				'designation' => __('Creative Designer','yoga'),
+				'designation' => __('Creative Designer','icyclub'),
 				'image_url'  => ICYCP_PLUGIN_URL .'inc/yoga/images/testimonial/testi3.jpg',
 				'open_new_tab' => 'no',
 				),
@@ -951,7 +951,7 @@ if ( ! function_exists( 'icycp_yoga_testimonial_customize_register' ) ) :
 				'title' => 'Williams Moore',	
 				'designation2'      => ' Company inc',
 				'text'       => 'Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium',
-				'designation' => __('Creative Designer','yoga'),
+				'designation' => __('Creative Designer','icyclub'),
 				'image_url'  => ICYCP_PLUGIN_URL .'inc/yoga/images/testimonial/testi2.jpg',
 				'open_new_tab' => 'no',
 				),		
@@ -1032,7 +1032,7 @@ if ( ! function_exists( 'icycp_yoga_news_customize_register' ) ) :
 		
 		$wp_customize->add_section(
 			'yoga_news_section_settings', array(
-			'title' => __('Latest News Section','yoga'),
+			'title' => __('Latest News Section','icyclub'),
 			'description' => '',
 			'panel'  => 'homepage_setting',
 			'priority'   => 7,
@@ -1050,7 +1050,7 @@ if ( ! function_exists( 'icycp_yoga_news_customize_register' ) ) :
 		 
 		$wp_customize->add_control( new Icycp_Yoga_Toggle_Switch_Custom_control( $wp_customize, 'yoga_news_enable',
 		   array(
-			  'label' => __('Hide / Show Section','yoga'),
+			  'label' => __('Hide / Show Section','icyclub'),
 			  'section' => 'yoga_news_section_settings',
 			  'choices'=>array( 1 =>true , 0 =>false),
 		   )
@@ -1064,7 +1064,7 @@ if ( ! function_exists( 'icycp_yoga_news_customize_register' ) ) :
 		) );
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 
 			'yoga_news_background', array(
-			'label'    => __( 'Choose Background Image','yoga' ),
+			'label'    => __( 'Choose Background Image','icyclub' ),
 			'section'  => 'yoga_news_section_settings',
 			'settings' => 'yoga_news_background') ,
 		) );
@@ -1075,7 +1075,7 @@ if ( ! function_exists( 'icycp_yoga_news_customize_register' ) ) :
 		) );
 		
 		$wp_customize->add_control(new Yoga_Customize_Alpha_Color_Control( $wp_customize,'yoga_news_overlay_color', array(
-			'label' => __('Overlay Color','yoga' ),
+			'label' => __('Overlay Color','icyclub' ),
 			'palette' => true,
 			'section' => 'yoga_news_section_settings')
 		) );
@@ -1086,7 +1086,7 @@ if ( ! function_exists( 'icycp_yoga_news_customize_register' ) ) :
 		) );
 		
 		$wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize,'yoga_news_text_color', array(
-			'label' => __('Text Color','yoga' ),
+			'label' => __('Text Color','icyclub' ),
 			'palette' => true,
 			'section' => 'yoga_news_section_settings')
 		) );
@@ -1101,7 +1101,7 @@ if ( ! function_exists( 'icycp_yoga_news_customize_register' ) ) :
 		) );
 		$wp_customize->add_control(
 			'disable_news_meta', array(
-			'label' => __('Hide post meta from blog pages, archive pages, categories, authors, etc.','yoga'),
+			'label' => __('Hide post meta from blog pages, archive pages, categories, authors, etc.','icyclub'),
 			'section' => 'yoga_news_section_settings',
 			'type' => 'checkbox',
 		) );
@@ -1109,14 +1109,14 @@ if ( ! function_exists( 'icycp_yoga_news_customize_register' ) ) :
 		// Latest News Title Setting
 		$wp_customize->add_setting(
 			'yoga_news_title', array(
-			'default' => __('Latest News','yoga'),
+			'default' => __('Latest News','icyclub'),
 			'capability'     => 'edit_theme_options',
 			'sanitize_callback' => 'icycp_yoga_home_page_sanitize_text',
 			'transport' => $selective_refresh,
 		) );    
 		$wp_customize->add_control( 
 			'yoga_news_title',array(
-			'label'   => __('Title','yoga'),
+			'label'   => __('Title','icyclub'),
 			'section' => 'yoga_news_section_settings',
 			'type' => 'text',
 		) );
@@ -1124,13 +1124,13 @@ if ( ! function_exists( 'icycp_yoga_news_customize_register' ) ) :
 		// Latest News Subtitle Setting
 		$wp_customize->add_setting(
 			'yoga_news_subtitle', array(
-			'default' => __('laoreet ipsum eu laoreet. ugiignissimat Vivamus dignissim feugiat erat sit amet convallis.','yoga'),
+			'default' => __('laoreet ipsum eu laoreet. ugiignissimat Vivamus dignissim feugiat erat sit amet convallis.','icyclub'),
 			'capability' => 'edit_theme_options',
 			'transport' => $selective_refresh,
 		) );  
 		$wp_customize->add_control( 
 			'yoga_news_subtitle',array(
-			'label'   => __('Description','yoga'),
+			'label'   => __('Description','icyclub'),
 			'section' => 'yoga_news_section_settings',
 			'type' => 'textarea',
 		) );  

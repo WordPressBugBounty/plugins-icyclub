@@ -115,7 +115,7 @@ if ( ! function_exists( 'icycp_consultup_service' ) ) :
                     <p><?php echo $service_one_description; ?></p>
                     <?php 
 					$ser_one_btn_link = get_theme_mod('ser_one_btn_link','#');
-					$ser_one_btn_text = get_theme_mod('ser_one_btn_text',__('Read More','#'));
+					$ser_one_btn_text = get_theme_mod('ser_one_btn_text',__('Read More','icyclub'));
 					$ser_one_btn_tab = get_theme_mod('ser_one_btn_tab',false);
 					if($ser_one_btn_text !='')
 					{ ?>
@@ -138,7 +138,7 @@ if ( ! function_exists( 'icycp_consultup_service' ) ) :
                      <p><?php echo $service_two_description; ?></p>
                     <?php 
 					$ser_two_btn_link = get_theme_mod('ser_two_btn_link','#');
-					$ser_two_btn_text = get_theme_mod('ser_two_btn_text',__('Read More','#'));
+					$ser_two_btn_text = get_theme_mod('ser_two_btn_text',__('Read More','icyclub'));
 					$ser_two_btn_tab = get_theme_mod('ser_two_btn_tab',false);
 					if($ser_two_btn_text !='')
 					{ ?>
@@ -158,7 +158,7 @@ if ( ! function_exists( 'icycp_consultup_service' ) ) :
                      <p><?php echo $service_three_description; ?></p>
                     <?php 
 					$ser_three_btn_link = get_theme_mod('ser_three_btn_link','#');
-					$ser_three_btn_text = get_theme_mod('ser_three_btn_text',__('Read More','#'));
+					$ser_three_btn_text = get_theme_mod('ser_three_btn_text',__('Read More','icyclub'));
 					$ser_three_btn_tab = get_theme_mod('ser_three_btn_tab',false);
 					if($ser_three_btn_text !='')
 					{ ?>
@@ -187,9 +187,9 @@ if ( ! function_exists( 'icycp_consultup_callout' ) ) :
 		
 		$callout_background_image = get_theme_mod('callout_background_image',ICYCP_PLUGIN_URL .'inc/consultup/images/callout/callout-back.jpg');
 		$callout_back_overlay_color = get_theme_mod('callout_back_overlay_color');
-		$callout_title = get_theme_mod('callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!','consultup'));
+		$callout_title = get_theme_mod('callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!','icyclub'));
 		$callout_discription = get_theme_mod('callout_discription','We must explain to you how all this misconsultupken idea of denouncing pleasure');
-		$callout_btn_txt = get_theme_mod('callout_btn_txt',__('Get Started Now!','consultup'));
+		$callout_btn_txt = get_theme_mod('callout_btn_txt',__('Get Started Now!','icyclub'));
 		$callout_btn_link = get_theme_mod('callout_btn_link','https://themeansar.com/themes/consultup-pro/');
 		$callout_btn_target = get_theme_mod('callout_btn_target',true);
 		$homepage_callout_show = get_theme_mod('homepage_callout_show','1');
@@ -249,16 +249,16 @@ if ( ! function_exists( 'icycp_consultup_portfolio' ) ) :
 		$portfolio_section_discription = get_theme_mod('portfolio_section_discription','laoreet ipsum eu laoreet. ugiignissimat Vivamus dignissim feugiat erat sit amet convallis.');
 		
 		$project_image_one = get_theme_mod('project_image_one',ICYCP_PLUGIN_URL .'inc/consultup/images/portfolio/portfolio1.jpg');
-		$project_title_one = get_theme_mod('project_title_one',__('Financial Project','consultup'));
+		$project_title_one = get_theme_mod('project_title_one',__('Financial Project','icyclub'));
 		$project_desc_one = get_theme_mod('project_desc_one','Lorem ipsum dolor sit amet, consectetur adipisicing elit..');
 		
 		$project_image_two = get_theme_mod('project_image_two',ICYCP_PLUGIN_URL .'inc/consultup/images/portfolio/portfolio2.jpg');
-		$project_title_two = get_theme_mod('project_title_two',__('Investment','consultup'));
+		$project_title_two = get_theme_mod('project_title_two',__('Investment','icyclub'));
 		$project_desc_two = get_theme_mod('project_desc_two','Lorem ipsum dolor sit amet, consectetur adipisicing elit..');
 		
 		
 		$project_image_three = get_theme_mod('project_image_three',ICYCP_PLUGIN_URL .'inc/consultup/images/portfolio/portfolio3.jpg');
-		$project_title_three = get_theme_mod('project_title_three',__('Invoicing','consultup'));
+		$project_title_three = get_theme_mod('project_title_three',__('Invoicing','icyclub'));
 		$project_desc_three = get_theme_mod('project_desc_three','Lorem ipsum dolor sit amet, consectetur adipisicing elit..');
 		
 		$project_section_enable = get_theme_mod('project_section_enable','1');
@@ -462,9 +462,9 @@ if ( ! function_exists( 'icycp_consultup_news' ) ) :
 function icycp_consultup_news() {
 $news_section_show = get_theme_mod('news_section_show','1');
 if($news_section_show == '1') {
-$news_section_title = get_theme_mod('news_section_title',__('Latest News','consultup'));
+$news_section_title = get_theme_mod('news_section_title',__('Latest News','icyclub'));
 $news_section_description= get_theme_mod('news_section_description','laoreet ipsum eu laoreet. ugiignissimat Vivamus dignissim feugiat erat sit amet convallis.');
-$news_section_post_count = get_theme_mod('news_section_post_count', __('3','consultup'));
+$news_section_post_count = get_theme_mod('news_section_post_count', __('3','icyclub'));
 ?>
 <!--==================== BLOG SECTION ====================-->
   <section id="news-section" class="consultup-blog-section">
@@ -476,7 +476,7 @@ $news_section_post_count = get_theme_mod('news_section_post_count', __('3','cons
         <div class="row">
           <div class="col-md-12 wow fadeInDown animated padding-bottom-20">
             <div class="consultup-heading">
-			<?php $news_section_title = get_theme_mod('news_section_title',__('Latest News','consultup'));?>
+			<?php $news_section_title = get_theme_mod('news_section_title',__('Latest News','icyclub'));?>
               <h3 class="consultup-heading-inner"><?php echo esc_html($news_section_title);?></h3>
 			  <?php $news_section_description = get_theme_mod('news_section_description','laoreet ipsum eu laoreet. ugiignissimat Vivamus dignissim feugiat erat sit amet convallis.');?>
 			  <p><?php echo esc_html($news_section_description);?></p>
@@ -516,14 +516,14 @@ $news_section_post_count = get_theme_mod('news_section_post_count', __('3','cons
                 <h1 class="title"> <a href="<?php echo esc_url(get_permalink()); ?>" title="<?php the_title_attribute(); ?>"><?php echo get_the_title() ?></a> </h1>
                   <div class="consultup-blog-meta"><span class="consultup-blog-date"><i class="far fa-clock"></i><a href="<?php echo esc_url(get_month_link(get_post_time('Y'),get_post_time('m'))); ?>">
 				  <?php echo esc_html(get_the_date('M j, Y')); ?></a></span>
-				  <a class="consultup-icon" href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) ));?>"><i class="far fa-newspaper"></i> <?php esc_html_e('by','consultup'); ?>
+				  <a class="consultup-icon" href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) ));?>"><i class="far fa-newspaper"></i> <?php esc_html_e('by','icyclub'); ?>
 				<?php the_author(); ?>
 				</a></div>
 
 				<?php $consultup_post_content_type = get_theme_mod('consultup_post_content_type','content'); 
 				if($consultup_post_content_type == 'content') {
-				 the_content(__('Read More','consultup'));
-					wp_link_pages( array( 'before' => '<div class="link btn-theme">' . __( 'Pages:', 'consultup' ), 'after' => '</div>' ) ); }
+				 the_content(__('Read More','icyclub'));
+					wp_link_pages( array( 'before' => '<div class="link btn-theme">' . __( 'Pages:', 'icyclub' ), 'after' => '</div>' ) ); }
 					elseif($consultup_post_content_type == 'excerpt')
 					{ ?>
 						<p><?php echo icyclub_news_excerpt(); ?></p>

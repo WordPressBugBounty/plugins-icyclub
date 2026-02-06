@@ -16,27 +16,27 @@ if ( ! function_exists( 'icycp_businessup_slider' ) ) :
 
     $defaults = array(
       array(
-      'slider_title'      => esc_html__( 'We help from our fleet Send it anywhere', 'businessup' ),
-      'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'businessup' ),
-      'btnone'      => __('Read More','businessup'),
+      'slider_title'      => esc_html__( 'We help from our fleet Send it anywhere', 'icyclub' ),
+      'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'icyclub' ),
+      'btnone'      => __('Read More','icyclub'),
       'btnonelink'       => '#',
       'image_uri'  => ICYCP_PLUGIN_URL .'inc/businessup/images/slider/slider1.jpg',
       'open_btnone_new_window' => 'no',
       ),
 
       array(
-        'slider_title'      => esc_html__( 'Transport your goods Around the World', 'businessup' ),
-        'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'businessup' ),
-        'btnone'      => __('Read More','businessup'),
+        'slider_title'      => esc_html__( 'Transport your goods Around the World', 'icyclub' ),
+        'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'icyclub' ),
+        'btnone'      => __('Read More','icyclub'),
         'btnonelink'       => '#',
         'image_uri'  => ICYCP_PLUGIN_URL .'inc/businessup/images/slider/slider2.jpg',
         'open_btnone_new_window' => 'no',
         ),
 
       array(
-        'slider_title'      => esc_html__( 'Transport your goods Around the World', 'businessup' ),
-        'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'businessup' ),
-        'btnone'      => __('Read More','businessup'),
+        'slider_title'      => esc_html__( 'Transport your goods Around the World', 'icyclub' ),
+        'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'icyclub' ),
+        'btnone'      => __('Read More','icyclub'),
         'btnonelink'       => '#',
         'image_uri'  => ICYCP_PLUGIN_URL .'inc/businessup/images/slider/slider3.jpg',
         'open_btnone_new_window' => 'no',
@@ -270,27 +270,27 @@ if ( ! function_exists( 'icycp_businessup_service' ) ) :
     $defaults = array(
       array(
       'fa_icon' => 'fa fa-thumbs-up',	
-      'service_title'      => esc_html__( 'Why We Best in Business Services', 'businessup' ),
-      'service_desc'       => esc_html__( 'laoreet ipsum eu laoreet. ugiignissimat Vivamus.', 'businessup' ),
-      'btnmore'      => __('Read More','businessup'),
+      'service_title'      => esc_html__( 'Why We Best in Business Services', 'icyclub' ),
+      'service_desc'       => esc_html__( 'laoreet ipsum eu laoreet. ugiignissimat Vivamus.', 'icyclub' ),
+      'btnmore'      => __('Read More','icyclub'),
       'btnlink'       => '#',
       'open_new_window' => 'no',
       ),
 
       array(
         'fa_icon' => 'fa fa-bank',	
-        'service_title'      => esc_html__( 'Business Planning', 'businessup' ),
-        'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'businessup' ),
-        'btnmore'      => __('Read More','businessup'),
+        'service_title'      => esc_html__( 'Business Planning', 'icyclub' ),
+        'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'icyclub' ),
+        'btnmore'      => __('Read More','icyclub'),
         'btnlink'       => '#',
         'open_new_window' => 'no',
       ),
   
       array(
         'fa_icon' => 'fa fa-bank',	
-        'service_title'      => esc_html__( 'Financial Planning', 'businessup' ),
-        'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'businessup' ),
-        'btnmore'      => __('Read More','businessup'),
+        'service_title'      => esc_html__( 'Financial Planning', 'icyclub' ),
+        'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'icyclub' ),
+        'btnmore'      => __('Read More','icyclub'),
         'btnlink'       => '#',
         'open_new_window' => 'no',
       ),		
@@ -437,12 +437,12 @@ if ( ! function_exists( 'icycp_businessup_callout' ) ) :
 		
 		$businessup_callout_background = get_theme_mod('businessup_callout_background',ICYCP_PLUGIN_URL .'inc/businessup/images/callout/callout-back.jpg');
 		$businessup_callout_overlay_color = get_theme_mod('businessup_callout_overlay_color');
-		$businessup_callout_title = get_theme_mod('businessup_callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!','businessup'));
+		$businessup_callout_title = get_theme_mod('businessup_callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!','icyclub'));
 		$businessup_callout_description = get_theme_mod('businessup_callout_description','We must explain to you how all this misbusinessupken idea of denouncing pleasure');
-		$businessup_callout_button_one_label = get_theme_mod('businessup_callout_button_one_label',__('Get Started Now!','businessup'));
+		$businessup_callout_button_one_label = get_theme_mod('businessup_callout_button_one_label',__('Get Started Now!','icyclub'));
 		$businessup_callout_button_one_link = get_theme_mod('businessup_callout_button_one_link','#');
 		$businessup_callout_button_one_target = get_theme_mod('businessup_callout_button_one_target',true);
-    $businessup_callout_button_two_label = get_theme_mod('businessup_callout_button_two_label',__('Read More','businessup'));
+    $businessup_callout_button_two_label = get_theme_mod('businessup_callout_button_two_label',__('Read More','icyclub'));
 		$businessup_callout_button_two_link = get_theme_mod('businessup_callout_button_two_link','#');
 		$businessup_callout_button_two_target = get_theme_mod('businessup_callout_button_two_target',true);
 		$businessup_callout_enable = get_theme_mod('businessup_callout_enable', 1 );
@@ -495,25 +495,25 @@ if($testimonial_section_enable != 0)
 {
   $defaults = array(
     array(
-    'title'      => esc_html__( 'Professional Team', 'businessup' ),
-    'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'businessup' ),
-    'subtitle'      => __('Ronald Thompson','businessup'),
+    'title'      => esc_html__( 'Professional Team', 'icyclub' ),
+    'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'icyclub' ),
+    'subtitle'      => __('Ronald Thompson','icyclub'),
     'designation'       => ' Developer',
     'image_url' => ICYCP_PLUGIN_URL .'/inc/businessup/images/testimonial/testi1.jpg',
     ),
 
     array(
-    'title'      => esc_html__( 'Professional Team', 'businessup' ),
-    'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'businessup' ),
-    'subtitle'      => __('Laura Walker','businessup'),
+    'title'      => esc_html__( 'Professional Team', 'icyclub' ),
+    'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'icyclub' ),
+    'subtitle'      => __('Laura Walker','icyclub'),
     'designation'       => ' Co-Founder',
     'image_url' => ICYCP_PLUGIN_URL .'/inc/businessup/images/testimonial/testi3.jpg',
     ),
 
     array(
-    'title'      => esc_html__( 'Professional Team', 'businessup' ),
-    'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'businessup' ),
-    'subtitle'      => __('Williams Moore','businessup'),
+    'title'      => esc_html__( 'Professional Team', 'icyclub' ),
+    'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'icyclub' ),
+    'subtitle'      => __('Williams Moore','icyclub'),
     'designation'       => ' Designer',
     'image_url' => ICYCP_PLUGIN_URL .'/inc/businessup/images/testimonial/testi2.jpg',
     ),
@@ -725,7 +725,7 @@ if ( ! function_exists( 'icycp_businessup_news' ) ) :
                     if(!empty($cat_list)) { ?>
                     <?php the_category(' '); ?>
                     <?php } ?>
-                    <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>"> <?php echo esc_html_e('by','businessup'); ?>
+                    <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>"> <?php echo esc_html_e('by','icyclub'); ?>
                     <?php the_author(); ?>
                     </a> 
                   </div>

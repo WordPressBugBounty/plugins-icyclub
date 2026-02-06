@@ -78,7 +78,7 @@ class bussinessup_upgrade_notice extends WP_Customize_Control {
             ) );	
             
             $wp_customize->add_control(new businessup_Customize_Alpha_Color_Control( $wp_customize,'businessup_slider_overlay_color', array(
-               'label'      => __('Image Overlay Color','businessup' ),
+               'label'      => __('Image Overlay Color','icyclub' ),
                 'palette' => true,
                 'section' => 'slider_section')
             ) );
@@ -89,10 +89,10 @@ class bussinessup_upgrade_notice extends WP_Customize_Control {
 				) );
 	
 				$wp_customize->add_control( new Businessup_Repeater_Control( $wp_customize, 'businessup_slider_content', array(
-					'label'                             => esc_html__( 'Slider Content', 'bussinessup' ),
+					'label'                             => esc_html__( 'Slider Content', 'icyclub' ),
 					'section'                           => 'slider_section',
-					'add_field_label'                   => esc_html__( 'Add new slider', 'bussinessup' ),
-					'item_name'                         => esc_html__( 'Slide', 'bussinessup' ),
+					'add_field_label'                   => esc_html__( 'Add new slider', 'icyclub' ),
+					'item_name'                         => esc_html__( 'Slide', 'icyclub' ),
 					'customizer_repeater_title_control' => true,
 					'customizer_repeater_text_control'  => true,
 					'customizer_repeater_button_text_control' => true,
@@ -113,27 +113,27 @@ class bussinessup_upgrade_notice extends WP_Customize_Control {
 
 					$defaults = array(
 						array(
-						'slider_title'      => esc_html__( 'We help from our fleet Send it anywhere', 'businessup' ),
-						'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'businessup' ),
-						'btnone'      => __('Read More','businessup'),
+						'slider_title'      => esc_html__( 'We help from our fleet Send it anywhere', 'icyclub' ),
+						'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'icyclub' ),
+						'btnone'      => __('Read More','icyclub'),
 						'btnonelink'       => '#',
 						'image_uri'  => ICYCP_PLUGIN_URL .'inc/businessup/images/slider/slider1.jpg',
 						'open_btnone_new_window' => 'no',
 						),
 		
 						array(
-							'slider_title'      => esc_html__( 'Transport your goods Around the World', 'businessup' ),
-							'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'businessup' ),
-							'btnone'      => __('Read More','businessup'),
+							'slider_title'      => esc_html__( 'Transport your goods Around the World', 'icyclub' ),
+							'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'icyclub' ),
+							'btnone'      => __('Read More','icyclub'),
 							'btnonelink'       => '#',
 							'image_uri'  => ICYCP_PLUGIN_URL .'inc/businessup/images/slider/slider2.jpg',
 							'open_btnone_new_window' => 'no',
 							),
 		
 						array(
-							'slider_title'      => esc_html__( 'Transport your goods Around the World', 'businessup' ),
-							'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'businessup' ),
-							'btnone'      => __('Read More','businessup'),
+							'slider_title'      => esc_html__( 'Transport your goods Around the World', 'icyclub' ),
+							'slider_desc'       => esc_html__( 'we bring the proper people along to challenge established thinking and drive transformation.', 'icyclub' ),
+							'btnone'      => __('Read More','icyclub'),
 							'btnonelink'       => '#',
 							'image_uri'  => ICYCP_PLUGIN_URL .'inc/businessup/images/slider/slider3.jpg',
 							'open_btnone_new_window' => 'no',
@@ -304,7 +304,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new businessup_Customize_Alpha_Color_Control( $wp_customize,'service_overlay_section_color', array(
-		   'label'      => __('Overlay Color', 'businessup' ),
+		   'label'      => __('Overlay Color', 'icyclub' ),
 			'palette' => true,
 			'section' => 'services_section')
 		) );
@@ -316,7 +316,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize,'businessup_service_text_color', array(
-		   'label'      => __('Text Color', 'businessup' ),
+		   'label'      => __('Text Color', 'icyclub' ),
 			'palette' => true,
 			'section' => 'services_section')
 		) );
@@ -330,7 +330,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );	
 		$wp_customize->add_control( 
 			'businessup_service_title',array(
-			'label'   => __('Title','businessup'),
+			'label'   => __('Title','icyclub'),
 			'section' => 'services_section',
 			'type' => 'text',
 		) );
@@ -343,7 +343,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'transport'         => $selective_refresh,
 		) );  
 		$wp_customize->add_control( 'businessup_service_subtitle', array(
-			'label'   => __('Description','businessup'),
+			'label'   => __('Description','icyclub'),
 			'section' => 'services_section',
 			'type' => 'textarea',
 		) );
@@ -354,10 +354,10 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			) );
 
 			$wp_customize->add_control( new Businessup_Repeater_Control( $wp_customize, 'businessup_service_content', array(
-				'label'                             => esc_html__( 'Service Content', 'bussinessup' ),
+				'label'                             => esc_html__( 'Service Content', 'icyclub' ),
 				'section'                           => 'services_section',
-				'add_field_label'                   => esc_html__( 'Add new Service', 'bussinessup' ),
-				'item_name'                         => esc_html__( 'Service', 'bussinessup' ),
+				'add_field_label'                   => esc_html__( 'Add new Service', 'icyclub' ),
+				'item_name'                         => esc_html__( 'Service', 'icyclub' ),
 				'customizer_repeater_icon_control' => true,
 				'customizer_repeater_title_control' => true,
 				'customizer_repeater_text_control'  => true,
@@ -374,27 +374,27 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 					$defaults = array(
 						array(
 						'fa_icon' => 'fa fa-thumbs-up',	
-						'service_title'      => esc_html__( 'Why We Best in Business Services', 'businessup' ),
-						'service_desc'       => esc_html__( 'laoreet ipsum eu laoreet. ugiignissimat Vivamus.', 'businessup' ),
-						'btnmore'      => __('Read More','businessup'),
+						'service_title'      => esc_html__( 'Why We Best in Business Services', 'icyclub' ),
+						'service_desc'       => esc_html__( 'laoreet ipsum eu laoreet. ugiignissimat Vivamus.', 'icyclub' ),
+						'btnmore'      => __('Read More','icyclub'),
 						'btnlink'       => '#',
 						'open_new_window' => 'no',
 						),
 
 						array(
 							'fa_icon' => 'fa fa-bank',	
-							'service_title'      => esc_html__( 'Business Planning', 'businessup' ),
-							'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'businessup' ),
-							'btnmore'      => __('Read More','businessup'),
+							'service_title'      => esc_html__( 'Business Planning', 'icyclub' ),
+							'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'icyclub' ),
+							'btnmore'      => __('Read More','icyclub'),
 							'btnlink'       => '#',
 							'open_new_window' => 'no',
 						),
 				
 						array(
 							'fa_icon' => 'fa fa-bank',	
-							'service_title'      => esc_html__( 'Financial Planning', 'businessup' ),
-							'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'businessup' ),
-							'btnmore'      => __('Read More','businessup'),
+							'service_title'      => esc_html__( 'Financial Planning', 'icyclub' ),
+							'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'icyclub' ),
+							'btnmore'      => __('Read More','icyclub'),
 							'btnlink'       => '#',
 							'open_new_window' => 'no',
 						),		
@@ -518,7 +518,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
 /* Slider Section */
 	$wp_customize->add_section( 'home_callout_section' , array(
-		'title'      => __('Callout Settings', 'businessup'),
+		'title'      => __('Callout Settings', 'icyclub'),
 		'panel'  => 'homepage_setting',
 		'priority'   => 2,
    	) );
@@ -549,7 +549,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				'businessup_callout_background',
 				array(
 					'type'        => 'upload',
-					'label' => __('Image','businessup'),
+					'label' => __('Image','icyclub'),
 					'settings' =>'businessup_callout_background',
 					'section' => 'home_callout_section',
 					
@@ -564,7 +564,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		);	
             
 		$wp_customize->add_control(new businessup_Customize_Alpha_Color_Control( $wp_customize,'businessup_callout_overlay_color', array(
-			'label'      => __('Image Overlay Color','businessup' ),
+			'label'      => __('Image Overlay Color','icyclub' ),
 			'palette' => true,
 			'section' => 'home_callout_section')
 		) );
@@ -575,7 +575,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new businessup_Customize_Alpha_Color_Control( $wp_customize,'businessup_callout_text_color', array(
-		    'label'   => __('Text Color', 'businessup' ),
+		    'label'   => __('Text Color', 'icyclub' ),
 			'palette' => true,
 			'section' => 'home_callout_section')
 		) );
@@ -583,12 +583,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout title
 		$wp_customize->add_setting( 'businessup_callout_title',array(
-		'default' => __('Trusted By Over 10,000 Worldwide Businesses. Try Today!','businessup'),
+		'default' => __('Trusted By Over 10,000 Worldwide Businesses. Try Today!','icyclub'),
 		'sanitize_callback' => 'icycp_businessup_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'businessup_callout_title',array(
-		'label'   => __('Title','businessup'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));	
@@ -600,7 +600,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'businessup_callout_description',array(
-		'label'   => __('Description','businessup'),
+		'label'   => __('Description','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'textarea',
 		));
@@ -608,12 +608,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout button text
 		$wp_customize->add_setting( 'businessup_callout_button_one_label',array(
-		'default' => __('Get Started Now!','businessup'),
+		'default' => __('Get Started Now!','icyclub'),
 		'sanitize_callback' => 'icycp_businessup_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'businessup_callout_button_one_label',array(
-		'label'   => __('Button Text','businessup'),
+		'label'   => __('Button Text','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -625,7 +625,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'businessup_callout_button_one_link',array(
-		'label'   => __('Button Link','businessup'),
+		'label'   => __('Button Link','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -638,7 +638,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'sanitize_callback' => 'icycp_businessup_home_page_sanitize_text',
 		));
 		$wp_customize->add_control('businessup_callout_button_one_target', array(
-			'label'   => __('Open link in a new tab', 'businessup'),
+			'label'   => __('Open link in a new tab', 'icyclub'),
 			'section' => 'home_callout_section',
 			'type' => 'checkbox',
 		));
@@ -646,13 +646,13 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//Callout Button Two Label Setting	
 		    $wp_customize->add_setting(
 		    	'businessup_callout_button_two_label', array(
-				'default' => __('Read More','businessup'),
+				'default' => __('Read More','icyclub'),
 		        'capability' => 'edit_theme_options',
 		        'sanitize_callback' => 'sanitize_text_field',
 		    ) );	
 		    $wp_customize->add_control( 
 		    	'businessup_callout_button_two_label', array(
-		    	'label' => __('Button Text','businessup'),
+		    	'label' => __('Button Text','icyclub'),
 		    	'section' => 'home_callout_section',
 		    	'type' => 'text',
 		    ) );	
@@ -665,7 +665,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		    ) );	
 		    $wp_customize->add_control( 
 		    	'businessup_callout_button_two_link', array(
-		    	'label' => __('Button Link','businessup'),
+		    	'label' => __('Button Link','icyclub'),
 		    	'type' => 'text',
 		    	'section' => 'home_callout_section',
 		    ) );	
@@ -678,7 +678,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		    ) );	
 		    $wp_customize->add_control( 
 		    	'businessup_callout_button_two_target', array(
-		    	'label' => __('Open link in a new tab','businessup'),
+		    	'label' => __('Open link in a new tab','icyclub'),
 		    	'section' => 'home_callout_section',
 		    	'type' => 'checkbox',
 		    ) );
@@ -764,7 +764,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         ) );	
             
 		$wp_customize->add_control(new businessup_Customize_Alpha_Color_Control( $wp_customize,'businessup_calltoaction_overlay_color', array(
-		'label'      => __('Overlay Color','businessup' ),
+		'label'      => __('Overlay Color','icyclub' ),
 			'palette' => true,
 			'section' => 'calltoaction_section')
 		) );
@@ -775,7 +775,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         ) );	
             
 		$wp_customize->add_control(new businessup_Customize_Alpha_Color_Control( $wp_customize,'businessup_calltoaction_text_color', array(
-		'label'      => __('Text color','businessup' ),
+		'label'      => __('Text color','icyclub' ),
 			'palette' => true,
 			'section' => 'calltoaction_section')
 		) );
@@ -809,12 +809,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout button text
 		$wp_customize->add_setting( 'businessup_calltoaction_button_one_label',array(
-		'default' => __('Lets Start','businessup'),
+		'default' => __('Lets Start','icyclub'),
 		'sanitize_callback' => 'icycp_businessup_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'businessup_calltoaction_button_one_label',array(
-		'label'   => __('Button Text','businessup'),
+		'label'   => __('Button Text','icyclub'),
 		'section' => 'calltoaction_section',
 		'type' => 'text',
 		));
@@ -826,7 +826,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'businessup_calltoaction_button_one_link',array(
-		'label'   => __('Button Link','businessup'),
+		'label'   => __('Button Link','icyclub'),
 		'section' => 'calltoaction_section',
 		'type' => 'text',
 		));
@@ -839,7 +839,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'sanitize_callback' => 'icycp_businessup_home_page_sanitize_text',
 		));
 		$wp_customize->add_control('businessup_calltoaction_button_one_target', array(
-			'label'   => __('Open link in a new tab', 'businessup'),
+			'label'   => __('Open link in a new tab', 'icyclub'),
 			'section' => 'calltoaction_section',
 			'type' => 'checkbox',
 		));
@@ -978,12 +978,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	// testimonial section title
 	$wp_customize->add_setting( 'businessup_testimonials_title',array(
 		'capability'     => 'edit_theme_options',
-		'default' => __('Our Clients Says','businessup'),
+		'default' => __('Our Clients Says','icyclub'),
 		'sanitize_callback' => 'icycp_businessup_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 	));	
 	$wp_customize->add_control( 'businessup_testimonials_title',array(
-		'label'   => __('Title','businessup'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'testimonial_section',
 		'type' => 'text',
 	));
@@ -1005,10 +1005,10 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 
 		$wp_customize->add_control( new Businessup_Repeater_Control( $wp_customize, 'businessup_testimonial_content', array(
-			'label'                                => esc_html__( 'Testimonial Content', 'bussinessup' ),
+			'label'                                => esc_html__( 'Testimonial Content', 'icyclub' ),
 			'section'                              => 'testimonial_section',
-			'add_field_label'                      => esc_html__( 'Add new Testimonial', 'bussinessup' ),
-			'item_name'                            => esc_html__( 'Testimonial', 'bussinessup' ),
+			'add_field_label'                      => esc_html__( 'Add new Testimonial', 'icyclub' ),
+			'item_name'                            => esc_html__( 'Testimonial', 'icyclub' ),
 			'customizer_repeater_title_control'    => true,
 			'customizer_repeater_subtitle_control' =>true,
 			'customizer_repeater_text_control'     => true,
@@ -1037,25 +1037,25 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
 		$defaults = array(
 			array(
-				'title'      => esc_html__( 'Professional Team', 'businessup' ),
-				'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'businessup' ),
-				'subtitle'      => __('Ronald Thompson','businessup'),
+				'title'      => esc_html__( 'Professional Team', 'icyclub' ),
+				'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'icyclub' ),
+				'subtitle'      => __('Ronald Thompson','icyclub'),
 				'designation'       => ' Developer',
 				'image_url' => ICYCP_PLUGIN_URL .'/inc/businessup/images/testimonial/testi1.jpg',
 			),
 
 			array(
-				'title'      => esc_html__( 'Professional Team', 'businessup' ),
-				'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'businessup' ),
-				'subtitle'      => __('Laura Walker','businessup'),
+				'title'      => esc_html__( 'Professional Team', 'icyclub' ),
+				'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'icyclub' ),
+				'subtitle'      => __('Laura Walker','icyclub'),
 				'designation'       => ' Co-Founder',
 				'image_url' => ICYCP_PLUGIN_URL .'/inc/businessup/images/testimonial/testi3.jpg',
 			),
 
 			array(
-				'title'      => esc_html__( 'Professional Team', 'businessup' ),
-				'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'businessup' ),
-				'subtitle'      => __('Williams Moore','businessup'),
+				'title'      => esc_html__( 'Professional Team', 'icyclub' ),
+				'text'       => esc_html__('Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium.', 'icyclub' ),
+				'subtitle'      => __('Williams Moore','icyclub'),
 				'designation'       => ' Designer',
 				'image_url' => ICYCP_PLUGIN_URL .'/inc/businessup/images/testimonial/testi2.jpg',
 			),
@@ -1111,7 +1111,7 @@ if ( ! function_exists( 'icycp_businessup_news_customize_register' ) ) :
 		
 		$wp_customize->add_section(
 			'businessup_news_section_settings', array(
-			'title' => __('Latest News Settings','businessup'),
+			'title' => __('Latest News Settings','icyclub'),
 			'description' => '',
 			'panel'  => 'homepage_setting',
 		) );
@@ -1126,7 +1126,7 @@ if ( ! function_exists( 'icycp_businessup_news_customize_register' ) ) :
 		); 
 		$wp_customize->add_control( new Icycp_businessup_Toggle_Switch_Custom_control( $wp_customize, 'businessup_news_enable',
 		   array(
-			  'label' => __('Hide / Show Section', 'businessup'),
+			  'label' => __('Hide / Show Section', 'icyclub'),
 			  'section' => 'businessup_news_section_settings',
 			  'choices'=>array( 1 =>true , 0 =>false),
 		    )
@@ -1139,7 +1139,7 @@ if ( ! function_exists( 'icycp_businessup_news_customize_register' ) ) :
 		) );
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 
 			'businessup_news_background', array(
-			'label'    => __( 'Background Image', 'businessup' ),
+			'label'    => __( 'Background Image', 'icyclub' ),
 			'section'  => 'businessup_news_section_settings',
 			'settings' => 'businessup_news_background', ) 
 		) );
@@ -1150,7 +1150,7 @@ if ( ! function_exists( 'icycp_businessup_news_customize_register' ) ) :
 		) );
 		
 		$wp_customize->add_control(new businessup_Customize_Alpha_Color_Control( $wp_customize,'businessup_news_overlay_color', array(
-			'label' => __('Overlay Color', 'businessup' ),
+			'label' => __('Overlay Color', 'icyclub' ),
 			'palette' => true,
 			'section' => 'businessup_news_section_settings')
 		) );
@@ -1161,7 +1161,7 @@ if ( ! function_exists( 'icycp_businessup_news_customize_register' ) ) :
 		) );
 		
 		$wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize,'businessup_news_text_color', array(
-			'label' => __('Text Color', 'businessup' ),
+			'label' => __('Text Color', 'icyclub' ),
 			'palette' => true,
 			'section' => 'businessup_news_section_settings')
 		) );
@@ -1176,20 +1176,20 @@ if ( ! function_exists( 'icycp_businessup_news_customize_register' ) ) :
 		); 
 		$wp_customize->add_control( new Icycp_businessup_Toggle_Switch_Custom_control( $wp_customize, 'businessup_disable_news_meta',
 		   array(
-			  'label' => __('Hide / Show Meta', 'businessup'),
+			  'label' => __('Hide / Show Meta', 'icyclub'),
 			  'section' => 'businessup_news_section_settings',
 		    )
 		) ); 
 		// Latest News Title Setting
 		$wp_customize->add_setting(
 			'businessup_news_title', array(
-			'default' => __('Latest News', 'businessup'),
+			'default' => __('Latest News', 'icyclub'),
 			'capability'     => 'edit_theme_options',
 			'sanitize_callback' => 'sanitize_text_field',
 		) );    
 		$wp_customize->add_control( 
 			'businessup_news_title',array(
-			'label'   => __('Title','businessup'),
+			'label'   => __('Title','icyclub'),
 			'section' => 'businessup_news_section_settings',
 			'type' => 'text',
 		) );
@@ -1197,13 +1197,13 @@ if ( ! function_exists( 'icycp_businessup_news_customize_register' ) ) :
 		// Latest News Subtitle Setting
 		$wp_customize->add_setting(
 			'businessup_news_subtitle', array(
-			'default' => __('laoreet ipsum eu laoreet. ugiignissimat Vivamus dignissim feugiat erat sit amet convallis.', 'businessup'),
+			'default' => __('laoreet ipsum eu laoreet. ugiignissimat Vivamus dignissim feugiat erat sit amet convallis.', 'icyclub'),
 			'capability' => 'edit_theme_options',
 			'sanitize_callback' => 'businessup_homepage_sanitize_textarea_content',
 		) );  
 		$wp_customize->add_control( 
 			'businessup_news_subtitle',array(
-			'label'   => __('Description','businessup'),
+			'label'   => __('Description','icyclub'),
 			'section' => 'businessup_news_section_settings',
 			'type' => 'textarea',
 		) );  

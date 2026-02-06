@@ -31,7 +31,7 @@ $wp_customize->add_section( 'news_section' , array(
         'transport' => $selective_refresh
     ) );
     $wp_customize->add_control( 'news_section_title', array(
-        'label' => __('Title', 'consultup'),
+        'label' => __('Title', 'icyclub'),
         'section' => 'news_section',
         'type' => 'text',
     ) );
@@ -39,11 +39,11 @@ $wp_customize->add_section( 'news_section' , array(
     $wp_customize->add_setting(
         'news_section_subtitle', array(
         'capability' => 'edit_theme_options',
-        'default' => __('Our Blog','agencyup'),
+        'default' => __('Our Blog','icyclub'),
         'transport' => $selective_refresh
     ) );
     $wp_customize->add_control( 'news_section_subtitle', array(
-        'label' => __('Subtitle', 'agencyup'),
+        'label' => __('Subtitle', 'icyclub'),
         'section' => 'news_section',
         'type' => 'text',
     ) );
@@ -75,10 +75,10 @@ $wp_customize->add_section( 'news_section' , array(
 
     $wp_customize->add_control( 'consultup_post_content_type', array(
         'type'     => 'radio',
-        'label'    => esc_html__( 'Blog Post Content Type', 'consultup' ),
+        'label'    => esc_html__( 'Blog Post Content Type', 'icyclub' ),
         'choices'  => array(
-            'content'          => esc_html__( 'Content', 'consultup' ),
-            'excerpt' => esc_html__( 'Excerpt', 'consultup' ),
+            'content'          => esc_html__( 'Content', 'icyclub' ),
+            'excerpt' => esc_html__( 'Excerpt', 'icyclub' ),
         ),
         'section'  => 'news_section',
         'settings' => 'consultup_post_content_type',
@@ -88,7 +88,7 @@ $wp_customize->add_section( 'news_section' , array(
     $wp_customize->add_setting(
 		'consultup_excerpt_length', array(
         'capability' => 'edit_theme_options',
-		'default' => __('180','consultup'),
+		'default' => __('180','icyclub'),
     ) );
     $wp_customize->add_control( 'consultup_excerpt_length', array(
         'label' => __('Excerpt length', 'icyclub'),

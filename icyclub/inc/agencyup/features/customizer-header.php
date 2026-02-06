@@ -4,7 +4,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
 /* Slider Section */
 	$wp_customize->add_section( 'header_contact' , array(
-		'title' => __('Header Top Setting', 'agencyup'),
+		'title' => __('Header Top Setting', 'icyclub'),
 		'panel' => 'header_options',
 		'priority' => 10,
    	) );
@@ -21,7 +21,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     $wp_customize->add_control(
     'header_contact_info_enable',
     array(
-        'label' => __('Hide / Show','agencyup'),
+        'label' => __('Hide / Show','icyclub'),
         'section' => 'header_contact',
         'type' => 'checkbox',
     )
@@ -35,7 +35,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         //'transport'         => $selective_refresh,
     ) );
     $wp_customize->add_control( 'agencyup_head_info_icon_one', array(
-        'label' => __('Icon', 'agencyup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'header_contact',
         'type' => 'text',
     ) );
@@ -48,7 +48,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
     ) );
     $wp_customize->add_control( 'agencyup_head_info_icon_one_text', array(
-        'label' => __('Text', 'agencyup'),
+        'label' => __('Text', 'icyclub'),
         'section' => 'header_contact',
         'type' => 'text',
     ) );
@@ -62,7 +62,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => 'fa-phone',
     ) );
     $wp_customize->add_control( 'agencyup_head_info_icon_two', array(
-        'label' => __('Icon', 'agencyup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'header_contact',
         'type' => 'text',
     ) );
@@ -75,7 +75,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
     ) );
     $wp_customize->add_control( 'agencyup_head_info_icon_two_text', array(
-        'label' => __('Text', 'agencyup'),
+        'label' => __('Text', 'icyclub'),
         'section' => 'header_contact',
         'type' => 'text',
     ) );
@@ -93,7 +93,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control(
     'header_social_icon_enable',
     array(
-        'label' => __('Hide / Show Social Icons','agencyup'),
+        'label' => __('Hide / Show Social Icons','icyclub'),
         'section' => 'header_contact',
         'type' => 'checkbox',
     )
@@ -111,7 +111,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control(
     'agencyup_header_fb_link',
     array(
-        'label' => __('Facebook URL','agencyup'),
+        'label' => __('Facebook URL','icyclub'),
         'section' => 'header_contact',
         'type' => 'url',
     )
@@ -127,7 +127,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     'agencyup_header_fb_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','agencyup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'header_contact',
     )
 	);
@@ -145,7 +145,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control(
     'agencyup_header_twt_link',
     array(
-        'label' => __('Twitter URL','agencyup'),
+        'label' => __('Twitter URL','icyclub'),
         'section' => 'header_contact',
         'type' => 'url',
     )
@@ -161,7 +161,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     'agencyup_header_twt_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','agencyup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'header_contact',
     )
 	);
@@ -178,7 +178,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control(
     'agencyup_header_lnkd_link',
     array(
-        'label' => __('Linkedin URL','agencyup'),
+        'label' => __('Linkedin URL','icyclub'),
         'section' => 'header_contact',
         'type' => 'url',
     )
@@ -194,7 +194,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     'agencyup_twitter_lnkd_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','agencyup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'header_contact',
     )
 	);
@@ -212,7 +212,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_control(
     'agencyup_header_insta_link',
     array(
-        'label' => __('Instagram URL','agencyup'),
+        'label' => __('Instagram URL','icyclub'),
         'section' => 'header_contact',
         'type' => 'url',
     )
@@ -228,7 +228,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     'agencyup_insta_lnkd_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','agencyup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'header_contact',
     )
 	);

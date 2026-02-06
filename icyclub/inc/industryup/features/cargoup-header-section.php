@@ -5,7 +5,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 /* Header Section */
 
 $wp_customize->add_section( 'cargo_top_header_contact' , array(
-        'title' => __('Top Info Setting', 'cargoup'),
+        'title' => __('Top Info Setting', 'icyclub'),
         'panel' => 'header_options',
         'priority' => 20,
     ) );
@@ -22,7 +22,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
     $wp_customize->add_control(
     'header_contact_info_enable',
     array(
-        'label' => __('Hide / Show Top Contact Info','industryup'),
+        'label' => __('Hide / Show Top Contact Info','icyclub'),
         'section' => 'cargo_top_header_contact',
         'type' => 'checkbox',
     )
@@ -36,7 +36,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
         //'transport'         => $selective_refresh,
     ) );
     $wp_customize->add_control( 'cargoup_head_info_icon_one', array(
-        'label' => __('Icon', 'industryup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'cargo_top_header_contact',
         'type' => 'text',
     ) );
@@ -66,7 +66,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
         'default' => 'fa-envelope-open',
     ) );
     $wp_customize->add_control( 'cargoup_head_info_icon_two', array(
-        'label' => __('Icon', 'industryup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'cargo_top_header_contact',
         'type' => 'text',
     ) );
@@ -79,7 +79,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
         //'transport'         => $selective_refresh,
     ) );
     $wp_customize->add_control( 'cargoup_head_info_text_three', array(
-        'label' => __('Text', 'industryup'),
+        'label' => __('Text', 'icyclub'),
         'section' => 'cargo_top_header_contact',
         'type' => 'text',
     ) );
@@ -87,7 +87,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
     //Social Icon
 
 	 $wp_customize->add_section('top_header_social_icon', array(
-        'title' => __('Social Icon','industryup'),
+        'title' => __('Social Icon','icyclub'),
         'priority' => 20,
         'panel' => 'header_options',
     ) );
@@ -106,7 +106,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
 	$wp_customize->add_control(
     'header_social_icon_enable',
     array(
-        'label' => __('Hide / Show Social Icons','industryup'),
+        'label' => __('Hide / Show Social Icons','icyclub'),
         'section' => 'top_header_social_icon',
         'type' => 'checkbox',
     )
@@ -125,7 +125,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
 	$wp_customize->add_control(
     'industryup_header_fb_link',
     array(
-        'label' => __('Facebook URL','industryup'),
+        'label' => __('Facebook URL','icyclub'),
         'section' => 'top_header_social_icon',
         'type' => 'url',
     )
@@ -141,7 +141,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
     'industryup_header_fb_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','industryup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'top_header_social_icon',
     )
 	);
@@ -159,7 +159,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
 	$wp_customize->add_control(
     'industryup_header_twt_link',
     array(
-        'label' => __('Twitter URL','industryup'),
+        'label' => __('Twitter URL','icyclub'),
         'section' => 'top_header_social_icon',
         'type' => 'url',
     )
@@ -175,7 +175,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
     'industryup_header_twt_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','industryup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'top_header_social_icon',
     )
 	);
@@ -192,7 +192,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
 	$wp_customize->add_control(
     'industryup_header_lnkd_link',
     array(
-        'label' => __('Linkedin URL','industryup'),
+        'label' => __('Linkedin URL','icyclub'),
         'section' => 'top_header_social_icon',
         'type' => 'url',
     )
@@ -208,7 +208,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
     'industryup_twitter_lnkd_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','industryup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'top_header_social_icon',
     )
 	);
@@ -226,7 +226,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
 	$wp_customize->add_control(
     'industryup_header_insta_link',
     array(
-        'label' => __('Instagram URL','industryup'),
+        'label' => __('Instagram URL','icyclub'),
         'section' => 'top_header_social_icon',
         'type' => 'url',
     )
@@ -242,14 +242,14 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
     'industryup_insta_lnkd_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','industryup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'top_header_social_icon',
     )
 	);
 
     //Contact Info settings
     $wp_customize->add_section( 'cargo_header_contact_info' , array(
-        'title' => __('Contact Info Setting', 'cargoup'),
+        'title' => __('Contact Info Setting', 'icyclub'),
         'panel' => 'header_options',
         'priority' => 25,
     ) );
@@ -266,7 +266,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
     $wp_customize->add_control(
     'header_right_contact_info_enable',
     array(
-        'label' => __('Hide / Show Contact Info','industryup'),
+        'label' => __('Hide / Show Contact Info','icyclub'),
         'section' => 'cargo_header_contact_info',
         'type' => 'checkbox',
     )
@@ -281,7 +281,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
         //'transport'         => $selective_refresh,
     ) );
     $wp_customize->add_control( 'cargoup_contact_icon_one', array(
-        'label' => __('Icon', 'industryup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'cargo_header_contact_info',
         'type' => 'text',
     ) );
@@ -329,7 +329,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
         //'transport'         => $selective_refresh,
     ) );
     $wp_customize->add_control( 'cargoup_contact_icon_four', array(
-        'label' => __('Icon', 'industryup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'cargo_header_contact_info',
         'type' => 'text',
     ) );
@@ -376,7 +376,7 @@ $wp_customize->add_section( 'cargo_top_header_contact' , array(
         //'transport'         => $selective_refresh,
     ) );
     $wp_customize->add_control( 'cargoup_contact_icon_seven', array(
-        'label' => __('Icon', 'industryup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'cargo_header_contact_info',
         'type' => 'text',
     ) );

@@ -216,7 +216,7 @@ if ( ! function_exists( 'icycp_shopbiz_service' ) ) :
                     <p><?php echo $service_one_description; ?></p>
                     <?php 
 					$ser_one_btn_link = get_theme_mod('ser_one_btn_link','#');
-					$ser_one_btn_text = get_theme_mod('ser_one_btn_text',__('Read More','#'));
+					$ser_one_btn_text = get_theme_mod('ser_one_btn_text',__('Read More','icyclub'));
 					$ser_one_btn_tab = get_theme_mod('ser_one_btn_tab',false);
 					if($ser_one_btn_text !='')
 					{ ?>
@@ -239,7 +239,7 @@ if ( ! function_exists( 'icycp_shopbiz_service' ) ) :
                      <p><?php echo $service_two_description; ?></p>
                     <?php 
 					$ser_two_btn_link = get_theme_mod('ser_two_btn_link','#');
-					$ser_two_btn_text = get_theme_mod('ser_two_btn_text',__('Read More','#'));
+					$ser_two_btn_text = get_theme_mod('ser_two_btn_text',__('Read More','icyclub'));
 					$ser_two_btn_tab = get_theme_mod('ser_two_btn_tab',false);
 					if($ser_two_btn_text !='')
 					{ ?>
@@ -259,7 +259,7 @@ if ( ! function_exists( 'icycp_shopbiz_service' ) ) :
                      <p><?php echo $service_three_description; ?></p>
                     <?php 
 					$ser_three_btn_link = get_theme_mod('ser_three_btn_link','#');
-					$ser_three_btn_text = get_theme_mod('ser_three_btn_text',__('Read More','#'));
+					$ser_three_btn_text = get_theme_mod('ser_three_btn_text',__('Read More','icyclub'));
 					$ser_three_btn_tab = get_theme_mod('ser_three_btn_tab',false);
 					if($ser_three_btn_text !='')
 					{ ?>
@@ -288,9 +288,9 @@ if ( ! function_exists( 'icycp_shopbiz_callout' ) ) :
 		
 		$shopbiz_callout_background = get_theme_mod('shopbiz_callout_background',ICYCP_PLUGIN_URL .'inc/shopbiz/images/callout/callout-back.jpg');
 		$shopbiz_overlay_callout_color_control = get_theme_mod('shopbiz_overlay_callout_color_control');
-		$shopbiz_callout_title = get_theme_mod('shopbiz_callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!','shopbiz'));
+		$shopbiz_callout_title = get_theme_mod('shopbiz_callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!','icyclub'));
 		$shopbiz_callout_description = get_theme_mod('shopbiz_callout_description','We must explain to you how all this misshopbizken idea of denouncing pleasure');
-		$shopbiz_callout_button_one_label = get_theme_mod('shopbiz_callout_button_one_label',__('Get Started Now!','shopbiz'));
+		$shopbiz_callout_button_one_label = get_theme_mod('shopbiz_callout_button_one_label',__('Get Started Now!','icyclub'));
 		$shopbiz_callout_button_one_link = get_theme_mod('shopbiz_callout_button_one_link','#');
 		$shopbiz_callout_button_one_target = get_theme_mod('shopbiz_callout_button_one_target',true);
 		$shopbiz_callout_enable = get_theme_mod('shopbiz_callout_enable','on');

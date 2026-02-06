@@ -5,7 +5,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	
 		/* Services section */
 	$wp_customize->add_section( 'services_section' , array(
-		'title'      => __('Service settings', 'industryup'),
+		'title'      => __('Service settings', 'icyclub'),
 		'panel'  => 'homepage_sections',
 		'priority'   => 2,
 	) );
@@ -29,7 +29,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		// Service section title
 		$wp_customize->add_setting( 'service_section_title',array(
 		'capability'     => 'edit_theme_options',
-		'default' => __('SERVICE WE PROVIDE','industryup'),
+		'default' => __('SERVICE WE PROVIDE','icyclub'),
 		'sanitize_callback' => 'icycp_industryup_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	

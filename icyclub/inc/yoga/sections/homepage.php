@@ -18,27 +18,27 @@ if ( ! function_exists( 'icycp_yoga_slider' ) ) :
 
     $defaults = array(
       array(
-      'slider_title'      => esc_html__( 'You can simply control what goes ahead inside', 'yoga' ),
-      'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'yoga' ),
-      'btnone'      => __('Read More','yoga'),
+      'slider_title'      => esc_html__( 'You can simply control what goes ahead inside', 'icyclub' ),
+      'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'icyclub' ),
+      'btnone'      => __('Read More','icyclub'),
       'btnonelink'       => '#',
       'image_uri'  => ICYCP_PLUGIN_URL .'inc/yoga/images/slider/slider1.jpg',
       'open_btnone_new_window' => 'no',
       ),
 
       array(
-      'slider_title'      => esc_html__( 'Transform your body with a yoga coach', 'yoga' ),
-      'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'yoga' ),
-      'btnone'      => __('Read More','yoga'),
+      'slider_title'      => esc_html__( 'Transform your body with a yoga coach', 'icyclub' ),
+      'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'icyclub' ),
+      'btnone'      => __('Read More','icyclub'),
       'btnonelink'       => '#',
       'image_uri'  => ICYCP_PLUGIN_URL .'inc/yoga/images/slider/slider2.jpg',
       'open_btnone_new_window' => 'no',
       ),
 
       array(
-      'slider_title'      => esc_html__( 'Confinement and find your brain', 'yoga' ),
-      'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'yoga' ),
-      'btnone'      => __('Read More','yoga'),
+      'slider_title'      => esc_html__( 'Confinement and find your brain', 'icyclub' ),
+      'slider_desc'       => esc_html__( 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin..', 'icyclub' ),
+      'btnone'      => __('Read More','icyclub'),
       'btnonelink'       => '#',
       'image_uri'  => ICYCP_PLUGIN_URL .'inc/yoga/images/slider/slider1.jpg',
       'open_btnone_new_window' => 'no',
@@ -210,27 +210,27 @@ if ( ! function_exists( 'icycp_yoga_service' ) ) :
     $defaults = array(
       array(
       'fa_icon' => 'fa fa-child',	
-      'service_title'      => esc_html__( 'Lotus position', 'yoga' ),
-      'service_desc'       => esc_html__( 'laoreet ipsum eu laoreet. ugiignissimat Vivamus.', 'yoga' ),
-      'btnmore'      => __('Read More','yoga'),
+      'service_title'      => esc_html__( 'Lotus position', 'icyclub' ),
+      'service_desc'       => esc_html__( 'laoreet ipsum eu laoreet. ugiignissimat Vivamus.', 'icyclub' ),
+      'btnmore'      => __('Read More','icyclub'),
       'btnlink'       => '#',
       'open_new_window' => 'no',
       ),
 
       array(
         'fa_icon' => 'fa fa-handshake-o',	
-        'service_title'      => esc_html__( 'Bakasana', 'yoga' ),
-        'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'yoga' ),
-        'btnmore'      => __('Read More','yoga'),
+        'service_title'      => esc_html__( 'Bakasana', 'icyclub' ),
+        'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'icyclub' ),
+        'btnmore'      => __('Read More','icyclub'),
         'btnlink'       => '#',
         'open_new_window' => 'no',
       ),
   
       array(
         'fa_icon' => 'fa fa-thumbs-up',	
-        'service_title'      => esc_html__( 'Handstand', 'yoga' ),
-        'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'yoga' ),
-        'btnmore'      => __('Read More','yoga'),
+        'service_title'      => esc_html__( 'Handstand', 'icyclub' ),
+        'service_desc'       => esc_html__( 'laoreet Pellentesque molestie laoreet laoreet.', 'icyclub' ),
+        'btnmore'      => __('Read More','icyclub'),
         'btnlink'       => '#',
         'open_new_window' => 'no',
       ),		
@@ -375,10 +375,10 @@ if ( ! function_exists( 'icycp_yoga_callout' ) ) :
 		
 		$yoga_callout_background = get_theme_mod('yoga_callout_background',ICYCP_PLUGIN_URL .'inc/yoga/images/callout/callout-back.jpg');
 		$yoga_callout_overlay_color = get_theme_mod('yoga_callout_overlay_color','#070b2be0');
-		$yoga_callout_title = get_theme_mod('yoga_callout_title',__('Certified Yoga Professionals. Try Today!','yoga'));
+		$yoga_callout_title = get_theme_mod('yoga_callout_title',__('Certified Yoga Professionals. Try Today!','icyclub'));
     $yoga_callout_text_color = get_theme_mod('yoga_callout_text_color','#fff');
 		$yoga_callout_description = get_theme_mod('yoga_callout_description','We must explain to you how all this mistaken idea of denouncing pleasure');
-		$yoga_callout_button_one_label = get_theme_mod('yoga_callout_button_one_label',__('Get Started Now!','yoga'));
+		$yoga_callout_button_one_label = get_theme_mod('yoga_callout_button_one_label',__('Get Started Now!','icyclub'));
 		$yoga_callout_button_one_link = get_theme_mod('yoga_callout_button_one_link','#');
 		$yoga_callout_button_one_target = get_theme_mod('yoga_callout_button_one_target',true);
 		$yoga_callout_enable = get_theme_mod('yoga_callout_enable', 1 );
@@ -442,7 +442,7 @@ $defaults = array(
   'title' => 'Williams Moore',	
   'designation2'      => ' Company inc',
   'text'       => 'Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium',
-  'designation' => __('Creative Designer','yoga'),
+  'designation' => __('Creative Designer','icyclub'),
   'image_url'  => ICYCP_PLUGIN_URL .'inc/yoga/images/testimonial/testi1.jpg',
   'open_new_tab' => 'no',
   ),
@@ -451,7 +451,7 @@ $defaults = array(
   'title' => 'Sara Williams ',	
   'designation2'      => ' Company inc',
   'text'       => 'Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium',
-  'designation' => __('Creative Designer','yoga'),
+  'designation' => __('Creative Designer','icyclub'),
   'image_url'  => ICYCP_PLUGIN_URL .'inc/yoga/images/testimonial/testi3.jpg',
   'open_new_tab' => 'no',
   ),
@@ -460,7 +460,7 @@ $defaults = array(
   'title' => 'Williams Moore',	
   'designation2'      => ' Company inc',
   'text'       => 'Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium',
-  'designation' => __('Creative Designer','yoga'),
+  'designation' => __('Creative Designer','icyclub'),
   'image_url'  => ICYCP_PLUGIN_URL .'inc/yoga/images/testimonial/testi2.jpg',
   'open_new_tab' => 'no',
   ),		
@@ -628,7 +628,7 @@ if ( ! function_exists( 'icycp_yoga_news' ) ) :
                 if(!empty($cat_list)) { ?>
                 <?php the_category(', '); ?>
                 <?php } ?>
-                <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>"> <?php echo esc_html_e('by','yoga'); ?>
+                <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>"> <?php echo esc_html_e('by','icyclub'); ?>
                 <?php the_author(); ?>
                 </a> 
                </div>

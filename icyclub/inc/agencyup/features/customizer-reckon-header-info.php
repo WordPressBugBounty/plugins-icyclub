@@ -4,7 +4,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
 /* Slider Section */
 	$wp_customize->add_section( 'header_info_contact' , array(
-		'title' => __('Header Info Setting', 'agencyup'),
+		'title' => __('Header Info Setting', 'icyclub'),
 		'panel' => 'header_options',
 		'priority' => 10,
    	) );
@@ -21,7 +21,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     $wp_customize->add_control(
     'header_contact_info_enable',
     array(
-        'label' => __('Hide / Show','agencyup'),
+        'label' => __('Hide / Show','icyclub'),
         'section' => 'header_info_contact',
         'type' => 'checkbox',
     )
@@ -34,7 +34,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'sanitize_callback' => 'sanitize_text_field',
     ) );
     $wp_customize->add_control( 'financey_head_info_icon_one', array(
-        'label' => __('Icon', 'agencyup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'header_info_contact',
         'type' => 'text',
     ) );
@@ -45,7 +45,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => '1240 Park Avenue,',
     ) );
     $wp_customize->add_control( 'financey_head_info_icon_one_text', array(
-        'label' => __('Text', 'agencyup'),
+        'label' => __('Text', 'icyclub'),
         'section' => 'header_info_contact',
         'type' => 'text',
     ) );
@@ -56,7 +56,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => 'NYC, USA 256323',
     ) );
     $wp_customize->add_control( 'financey_head_info_icon_one_two_text', array(
-        'label' => __('Text Two', 'agencyup'),
+        'label' => __('Text Two', 'icyclub'),
         'section' => 'header_info_contact',
         'type' => 'text',
     ) );
@@ -71,7 +71,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'sanitize_callback' => 'sanitize_text_field',
     ) );
     $wp_customize->add_control( 'financey_head_info_icon_two', array(
-        'label' => __('Icon', 'agencyup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'header_info_contact',
         'type' => 'text',
     ) );
@@ -82,7 +82,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => 'Free Consult',
     ) );
     $wp_customize->add_control( 'financey_head_info_icon_two_text', array(
-        'label' => __('Text', 'agencyup'),
+        'label' => __('Text', 'icyclub'),
         'section' => 'header_info_contact',
         'type' => 'text',
     ) );
@@ -93,7 +93,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => '+ (007) 548 58 5400',
     ) );
     $wp_customize->add_control( 'financey_head_info_icon_two_two_text', array(
-        'label' => __('Text Two', 'agencyup'),
+        'label' => __('Text Two', 'icyclub'),
         'section' => 'header_info_contact',
         'type' => 'text',
     ) );
@@ -108,7 +108,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'sanitize_callback' => 'sanitize_text_field',
     ) );
     $wp_customize->add_control( 'financey_head_info_icon_three', array(
-        'label' => __('Icon', 'agencyup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'header_info_contact',
         'type' => 'text',
     ) );
@@ -119,7 +119,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => 'Mon - Sat :',
     ) );
     $wp_customize->add_control( 'financey_head_info_icon_three_text', array(
-        'label' => __('Text', 'agencyup'),
+        'label' => __('Text', 'icyclub'),
         'section' => 'header_info_contact',
         'type' => 'text',
     ) );
@@ -130,7 +130,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => '10:00AM - 7:00PM',
     ) );
     $wp_customize->add_control( 'financey_head_info_icon_three_two_text', array(
-        'label' => __('Text Two', 'agencyup'),
+        'label' => __('Text Two', 'icyclub'),
         'section' => 'header_info_contact',
         'type' => 'text',
     ) );

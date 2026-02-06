@@ -7,11 +7,11 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     $wp_customize->add_panel( 'header_options', array(
         'priority' => 90,
         'capability' => 'edit_theme_options',
-        'title' => __('Header Settings', 'consultup'),
+        'title' => __('Header Settings', 'icyclub'),
     ) );
 
     $wp_customize->add_section( 'header_contact' , array(
-        'title' => __('Header Top Bar Setting', 'consultup'),
+        'title' => __('Header Top Bar Setting', 'icyclub'),
         'panel' => 'header_options',
         'priority' => 10,
     ) );
@@ -23,7 +23,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => 'fa-clock',
     ) );
     $wp_customize->add_control( 'consultup_head_info_icon_one', array(
-        'label' => __('Icon', 'consultup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'header_contact',
         'type' => 'text',
     ) );
@@ -36,7 +36,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
     ) );
     $wp_customize->add_control( 'consultup_head_info_icon_one_text', array(
-        'label' => __('Text', 'consultup'),
+        'label' => __('Text', 'icyclub'),
         'section' => 'header_contact',
         'type' => 'text',
     ) );
@@ -49,7 +49,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => 'fa-envelope',
     ) );
     $wp_customize->add_control( 'consultup_head_info_icon_two', array(
-        'label' => __('Icon', 'consultup'),
+        'label' => __('Icon', 'icyclub'),
         'section' => 'header_contact',
         'type' => 'text',
     ) );
@@ -61,13 +61,13 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
         'default' => 'info@themeansar.com',
     ) );
     $wp_customize->add_control( 'consultup_head_info_icon_two_text', array(
-        'label' => __('Text', 'consultup'),
+        'label' => __('Text', 'icyclub'),
         'section' => 'header_contact',
         'type' => 'text',
     ) );
 
      $wp_customize->add_section('header_social_icon', array(
-        'title' => __('Header Social Icon Settings','consultup'),
+        'title' => __('Header Social Icon Settings','icyclub'),
         'priority' => 20,
         'panel' => 'header_options',
     ) );
@@ -85,7 +85,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     $wp_customize->add_control(
     'header_social_icon_enable',
     array(
-        'label' => __('Hide / Show','consultup'),
+        'label' => __('Hide / Show','icyclub'),
         'section' => 'header_social_icon',
         'type' => 'checkbox',
     )
@@ -106,7 +106,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     $wp_customize->add_control(
     'consultup_header_fb_link',
     array(
-        'label' => __('Facebook URL','consultup'),
+        'label' => __('Facebook URL','icyclub'),
         'section' => 'header_social_icon',
         'type' => 'url',
     )
@@ -122,7 +122,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     'consultup_header_fb_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','consultup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'header_social_icon',
     )
     );
@@ -140,7 +140,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     $wp_customize->add_control(
     'consultup_header_twt_link',
     array(
-        'label' => __('Twitter URL','consultup'),
+        'label' => __('Twitter URL','icyclub'),
         'section' => 'header_social_icon',
         'type' => 'url',
     )
@@ -156,7 +156,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     'consultup_header_twt_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','consultup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'header_social_icon',
     )
     );
@@ -173,7 +173,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     $wp_customize->add_control(
     'consultup_header_lnkd_link',
     array(
-        'label' => __('Linkedin URL','consultup'),
+        'label' => __('Linkedin URL','icyclub'),
         'section' => 'header_social_icon',
         'type' => 'url',
     )
@@ -189,7 +189,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     'consultup_twitter_lnkd_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','consultup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'header_social_icon',
     )
     );
@@ -207,7 +207,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     $wp_customize->add_control(
     'consultup_header_insta_link',
     array(
-        'label' => __('Instagram URL','consultup'),
+        'label' => __('Instagram URL','icyclub'),
         'section' => 'header_social_icon',
         'type' => 'url',
     )
@@ -223,13 +223,13 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     'consultup_insta_lnkd_target',
     array(
         'type' => 'checkbox',
-        'label' => __('Open link in a new tab','consultup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'header_social_icon',
     )
     );
     
     $wp_customize->add_section( 'header_widget_one' , array(
-        'title' => __('Header Widget One Setting', 'consultup'),
+        'title' => __('Header Widget One Setting', 'icyclub'),
         'panel' => 'header_options',
         'priority'    => 600,
     ) );
@@ -242,7 +242,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     ) );  
     $wp_customize->add_control( 
         'consultup_header_widget_one_icon', array(
-        'label' => __('Icon','consultup'),
+        'label' => __('Icon','icyclub'),
         'section' => 'header_widget_one',
         'type' => 'text',
     ) );
@@ -255,7 +255,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     ) );  
     $wp_customize->add_control( 
         'consultup_header_widget_one_title',array(
-        'label'   => __('Title','consultup'),
+        'label'   => __('Title','icyclub'),
         'section' => 'header_widget_one',
         'type' => 'text',
     ) );
@@ -268,7 +268,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     ) );  
     $wp_customize->add_control( 
         'consultup_header_widget_one_description', array(
-        'label' => __('Description','consultup'),
+        'label' => __('Description','icyclub'),
         'section' => 'header_widget_one',
         'type' => 'text',
     ) );
@@ -276,7 +276,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     // add Header widget Two Setting
     
     $wp_customize->add_section( 'header_widget_two' , array(
-        'title' => __('Header Widget Two Setting', 'consultup'),
+        'title' => __('Header Widget Two Setting', 'icyclub'),
         'panel' => 'header_options',
         'priority'    => 620,
     ) );
@@ -289,7 +289,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     ) );  
     $wp_customize->add_control( 
         'consultup_header_widget_two_icon', array(
-        'label' => __('Icon','consultup'),
+        'label' => __('Icon','icyclub'),
         'section' => 'header_widget_two',
         'type' => 'text',
     ) );
@@ -302,7 +302,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     ) );  
     $wp_customize->add_control( 
         'consultup_header_widget_two_title',array(
-        'label'   => __('Title','consultup'),
+        'label'   => __('Title','icyclub'),
         'section' => 'header_widget_two',
         'type' => 'text',
     ) );
@@ -315,14 +315,14 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     ) );  
     $wp_customize->add_control( 
         'consultup_header_widget_two_description', array(
-        'label' => __('Description','consultup'),
+        'label' => __('Description','icyclub'),
         'section' => 'header_widget_two',
         'type' => 'text',
     ) );
 
     // add Header widget Three Setting
     $wp_customize->add_section( 'header_widget_three' , array(
-        'title' => __('Header Widget Three Setting', 'consultup'),
+        'title' => __('Header Widget Three Setting', 'icyclub'),
         'panel' => 'header_options',
         'priority'    => 620,
     ) );
@@ -336,7 +336,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     ) );  
     $wp_customize->add_control( 
         'consultup_header_widget_four_label', array(
-        'label' => __('Button Text','consultup'),
+        'label' => __('Button Text','icyclub'),
         'section' => 'header_widget_three',
         'type' => 'text',
     ) );
@@ -349,7 +349,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     ) );  
     $wp_customize->add_control( 
         'consultup_header_widget_four_link',array(
-        'label'   => __('Button Link','consultup'),
+        'label'   => __('Button Link','icyclub'),
         'section' => 'header_widget_three',
         'type' => 'url',
     ) );
@@ -362,7 +362,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
     ) );  
     $wp_customize->add_control( 
         'consultup_header_widget_four_target', array(
-        'label' => __('Open link in a new tab','consultup'),
+        'label' => __('Open link in a new tab','icyclub'),
         'section' => 'header_widget_three',
         'type' => 'checkbox',
     ) );

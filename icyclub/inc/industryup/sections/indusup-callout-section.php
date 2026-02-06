@@ -8,9 +8,9 @@ if ( ! function_exists( 'icycp_industryup_callout' ) ) :
 		$callout_background_image = get_theme_mod('callout_background_image',ICYCP_PLUGIN_URL .'inc/industryup/images/callout/callout-back.jpg');
 		$callout_back_overlay_color = get_theme_mod('callout_back_overlay_color');
 		$callout_title = get_theme_mod('callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!
-','industryup'));
+','icyclub'));
 		$callout_discription = get_theme_mod('callout_discription','looking For Professional Approach & Qaulity Services!');
-		$callout_btn_txt = get_theme_mod('callout_btn_txt',__('Get Started Now!','industryup'));
+		$callout_btn_txt = get_theme_mod('callout_btn_txt',__('Get Started Now!','icyclub'));
 		$callout_btn_link = get_theme_mod('callout_btn_link','https://themeansar.com/themes/industryup-pro/');
 		$callout_btn_target = get_theme_mod('callout_btn_target',true); 
 		$homepage_callout_show         = get_theme_mod('homepage_callout_show','1');

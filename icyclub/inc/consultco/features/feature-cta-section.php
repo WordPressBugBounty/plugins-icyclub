@@ -54,7 +54,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control('callout_back_image_overlay', array(
-			'label'    => __('Enable callout image overlay', 'consultup' ),
+			'label'    => __('Enable callout image overlay', 'icyclub' ),
 			'section'  => 'home_callout_section',
 			'type' => 'checkbox',
 		) );
@@ -66,7 +66,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
             ) );	
             
             $wp_customize->add_control(new Consultup_Customize_Alpha_Color_Control( $wp_customize,'callout_back_overlay_color', array(
-               'label'      => __('Callout image overlay color','consultup' ),
+               'label'      => __('Callout image overlay color','icyclub' ),
                 'palette' => true,
                 'section' => 'home_callout_section')
             ) );
@@ -78,7 +78,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'callout_title',array(
-		'label'   => __('Title','consultup'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));	
@@ -89,7 +89,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'callout_discription',array(
-		'label'   => __('Description','consultup'),
+		'label'   => __('Description','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'textarea',
 		));
@@ -97,12 +97,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout button text
 		$wp_customize->add_setting( 'callout_btn_txt',array(
-		'default' => __('Get Started Now!','consultup'),
+		'default' => __('Get Started Now!','icyclub'),
 		'sanitize_callback' => 'icycp_conulstup_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'callout_btn_txt',array(
-		'label'   => __('Button Text','consultup'),
+		'label'   => __('Button Text','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -113,7 +113,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'sanitize_callback' => 'icycp_conulstup_home_page_sanitize_text',
 		));	
 		$wp_customize->add_control( 'callout_btn_link',array(
-		'label'   => __('Button Link','consultup'),
+		'label'   => __('Button Link','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -126,7 +126,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'sanitize_callback' => 'icycp_conulstup_home_page_sanitize_text',
 		));
 		$wp_customize->add_control('callout_btn_target', array(
-			'label'   => __('Open link in new tab/window', 'consultup'),
+			'label'   => __('Open link in new tab/window', 'icyclub'),
 			'section' => 'home_callout_section',
 			'type' => 'checkbox',
 		));

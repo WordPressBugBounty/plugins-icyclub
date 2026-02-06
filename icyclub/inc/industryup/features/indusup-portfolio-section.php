@@ -4,7 +4,7 @@ function icycp_industryup_project_customizer( $wp_customize ) {
 $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' : 'refresh';	
 	/* project Section */
 	$wp_customize->add_section( 'project_section' , array(
-			'title'      => __('Project/Portfolio settings', 'industryup'),
+			'title'      => __('Project/Portfolio settings', 'icyclub'),
 			'panel'  => 'homepage_sections',
 			'priority'   => 3,
 		) );
@@ -59,7 +59,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'portfolio_section_discription',array(
-		'label'   => __('Description','industryup'),
+		'label'   => __('Description','icyclub'),
 		'section' => 'project_section',
 		'type' => 'textarea',
 		));	
@@ -88,7 +88,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//project one Title
 		$wp_customize->add_setting(
 		'project_title_one', array(
-			'default'        => __('Financial Project','industryup'),
+			'default'        => __('Financial Project','icyclub'),
 			'capability'     => 'edit_theme_options',
 			'sanitize_callback' => 'sanitize_text_field',
 			'transport'         => $selective_refresh,
@@ -131,7 +131,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'transport'         => $selective_refresh,
 		));
 		$wp_customize->add_control('project_title_two', array(
-			'label'   => __('Title', 'industryup'),
+			'label'   => __('Title', 'icyclub'),
 			'section' => 'project_section',
 			'type' => 'text',
 		));
@@ -165,7 +165,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'transport'         => $selective_refresh,
 		));
 		$wp_customize->add_control('project_title_three', array(
-			'label'   => __('Title', 'industryup'),
+			'label'   => __('Title', 'icyclub'),
 			'section' => 'project_section',
 			'type' => 'text',
 		));
@@ -199,7 +199,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'transport'         => $selective_refresh,
 		));
 		$wp_customize->add_control('project_title_four', array(
-			'label'   => __('Title', 'industryup'),
+			'label'   => __('Title', 'icyclub'),
 			'section' => 'project_section',
 			'type' => 'text',
 		));

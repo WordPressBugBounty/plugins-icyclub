@@ -681,7 +681,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
 /* Slider Section */
 	$wp_customize->add_section( 'home_callout_section' , array(
-		'title'      => __('Callout settings', 'consultup'),
+		'title'      => __('Callout settings', 'icyclub'),
 		'panel'  => 'homepage_sections',
 		'priority'   => 3,
    	) );
@@ -715,7 +715,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				'callout_background_image',
 				array(
 					'type'        => 'upload',
-					'label' => __('Image','consultup'),
+					'label' => __('Image','icyclub'),
 					'settings' =>'callout_background_image',
 					'section' => 'home_callout_section',
 					
@@ -730,7 +730,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control('callout_back_image_overlay', array(
-			'label'    => __('Enable callout image overlay', 'consultup' ),
+			'label'    => __('Enable callout image overlay', 'icyclub' ),
 			'section'  => 'home_callout_section',
 			'type' => 'checkbox',
 		) );
@@ -743,7 +743,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
             ) );	
             
             $wp_customize->add_control(new Consultup_Customize_Alpha_Color_Control( $wp_customize,'callout_back_overlay_color', array(
-               'label'      => __('Callout image overlay color','consultup' ),
+               'label'      => __('Callout image overlay color','icyclub' ),
                 'palette' => true,
                 'section' => 'home_callout_section')
             ) );
@@ -751,10 +751,10 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout title
 		$wp_customize->add_setting( 'callout_title',array(
-		'default' => __('Trusted By Over 10,000 Worldwide Businesses. Try Today!','consultup'),
+		'default' => __('Trusted By Over 10,000 Worldwide Businesses. Try Today!','icyclub'),
 		));	
 		$wp_customize->add_control( 'callout_title',array(
-		'label'   => __('Title','consultup'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));	
@@ -764,7 +764,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'default' => 'We must explain to you how all this mistaken idea of denouncing pleasure',
 		));	
 		$wp_customize->add_control( 'callout_discription',array(
-		'label'   => __('Description','consultup'),
+		'label'   => __('Description','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'textarea',
 		));
@@ -772,12 +772,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout button text
 		$wp_customize->add_setting( 'callout_btn_txt',array(
-		'default' => __('Get Started Now!','consultup'),
+		'default' => __('Get Started Now!','icyclub'),
 		'sanitize_callback' => 'icycp_conulstup_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'callout_btn_txt',array(
-		'label'   => __('Button Text','consultup'),
+		'label'   => __('Button Text','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -788,7 +788,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'sanitize_callback' => 'icycp_conulstup_home_page_sanitize_text',
 		));	
 		$wp_customize->add_control( 'callout_btn_link',array(
-		'label'   => __('Button Link','consultup'),
+		'label'   => __('Button Link','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -801,7 +801,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'sanitize_callback' => 'icycp_conulstup_home_page_sanitize_text',
 		));
 		$wp_customize->add_control('callout_btn_target', array(
-			'label'   => __('Open link in new tab/window', 'consultup'),
+			'label'   => __('Open link in new tab/window', 'icyclub'),
 			'section' => 'home_callout_section',
 			'type' => 'checkbox',
 		));
@@ -921,7 +921,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				$wp_customize,
 				'project_image_one',
 				array(
-					'label' => __('Image','consultup'),
+					'label' => __('Image','icyclub'),
 					'settings' =>'project_image_one',
 					'section' => 'project_section',
 					'type' => 'upload',
@@ -933,13 +933,13 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//project one Title
 		$wp_customize->add_setting(
 		'project_title_one', array(
-			'default'        => __('Financial Project','consultup'),
+			'default'        => __('Financial Project','icyclub'),
 			'capability'     => 'edit_theme_options',
 			'sanitize_callback' => 'sanitize_text_field',
 			'transport'         => $selective_refresh,
 		));
 		$wp_customize->add_control('project_title_one', array(
-			'label'   => __('Title', 'consultup'),
+			'label'   => __('Title', 'icyclub'),
 			'section' => 'project_section',
 			'type' => 'text',
 		));
@@ -953,7 +953,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'transport'         => $selective_refresh,
 		));
 		$wp_customize->add_control('project_desc_one', array(
-			'label'   => __('Description', 'consultup'),
+			'label'   => __('Description', 'icyclub'),
 			'section' => 'project_section',
 			'type' => 'text',
 		));
@@ -969,7 +969,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				$wp_customize,
 				'project_image_two',
 				array(
-					'label' => __('Image','consultup'),
+					'label' => __('Image','icyclub'),
 					'settings' =>'project_image_two',
 					'section' => 'project_section',
 					'type' => 'upload',
@@ -981,13 +981,13 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//project two Title
 		$wp_customize->add_setting(
 		'project_title_two', array(
-			'default'        => __('Investment','consultup'),
+			'default'        => __('Investment','icyclub'),
 			'capability'     => 'edit_theme_options',
 			'sanitize_callback' => 'sanitize_text_field',
 			'transport'         => $selective_refresh,
 		));
 		$wp_customize->add_control('project_title_two', array(
-			'label'   => __('Title', 'consultup'),
+			'label'   => __('Title', 'icyclub'),
 			'section' => 'project_section',
 			'type' => 'text',
 		));
@@ -1001,7 +1001,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'transport'         => $selective_refresh,
 		));
 		$wp_customize->add_control('project_desc_two', array(
-			'label'   => __('Description', 'consultup'),
+			'label'   => __('Description', 'icyclub'),
 			'section' => 'project_section',
 			'type' => 'text',
 		));
@@ -1017,7 +1017,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				$wp_customize,
 				'project_image_three',
 				array(
-					'label' => __('Image','consultup'),
+					'label' => __('Image','icyclub'),
 					'settings' =>'project_image_three',
 					'section' => 'project_section',
 					'type' => 'upload',
@@ -1028,13 +1028,13 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//Portfolio three Title
 		$wp_customize->add_setting(
 		'project_title_three', array(
-			'default'        => __('Invoicing','consultup'),
+			'default'        => __('Invoicing','icyclub'),
 			'capability'     => 'edit_theme_options',
 			'sanitize_callback' => 'sanitize_text_field',
 			'transport'         => $selective_refresh,
 		));
 		$wp_customize->add_control('project_title_three', array(
-			'label'   => __('Title', 'consultup'),
+			'label'   => __('Title', 'icyclub'),
 			'section' => 'project_section',
 			'type' => 'text',
 		));
@@ -1048,7 +1048,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'transport'         => $selective_refresh,
 		));
 		$wp_customize->add_control('project_desc_three', array(
-			'label'   => __('Description', 'consultup'),
+			'label'   => __('Description', 'icyclub'),
 			'section' => 'project_section',
 			'type' => 'text',
 		));
@@ -1219,12 +1219,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		// testimonial section title
 		$wp_customize->add_setting( 'testimonial_section_title',array(
 		'capability'     => 'edit_theme_options',
-		'default' => __('Our Clients Says','consultup'),
+		'default' => __('Our Clients Says','icyclub'),
 		'sanitize_callback' => 'icycp_conulstup_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'testimonial_section_title',array(
-		'label'   => __('Title','consultup'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'testimonial_section',
 		'type' => 'text',
 		));	
@@ -1356,7 +1356,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		
 		$wp_customize->add_setting( 'testimonial_two_name',array(
-		'default' => __('Williams Moore','consultup'),
+		'default' => __('Williams Moore','icyclub'),
 		'sanitize_callback' => 'icycp_conulstup_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
@@ -1547,7 +1547,7 @@ function icycp_consultup_news_customize_register($wp_customize){
 $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' : 'refresh';
 
 $wp_customize->add_section( 'news_section' , array(
-		'title' => __('News settings', 'consultup'),
+		'title' => __('News settings', 'icyclub'),
 		'panel' => 'homepage_sections',
    	) );
 	
@@ -1561,7 +1561,7 @@ $wp_customize->add_section( 'news_section' , array(
 		 
 		$wp_customize->add_control( new Icycp_Consultup_Toggle_Switch_Custom_control( $wp_customize, 'news_section_show',
 		   array(
-			  'label' => esc_html__( 'News Enable/Disable','consultup'),
+			  'label' => esc_html__( 'News Enable/Disable','icyclub'),
 			  'section' => 'news_section'
 		   )
 	) );
@@ -1571,11 +1571,11 @@ $wp_customize->add_section( 'news_section' , array(
 	$wp_customize->add_setting(
 		'news_section_title', array(
         'capability' => 'edit_theme_options',
-		'default' => __('Latest News','consultup'),
+		'default' => __('Latest News','icyclub'),
 		'transport' => $selective_refresh
     ) );
     $wp_customize->add_control( 'news_section_title', array(
-        'label' => __('News section title', 'consultup'),
+        'label' => __('News section title', 'icyclub'),
         'section' => 'news_section',
         'type' => 'text',
     ) );
@@ -1587,7 +1587,7 @@ $wp_customize->add_section( 'news_section' , array(
 		'transport' => $selective_refresh
     ) );
     $wp_customize->add_control( 'news_section_description', array(
-        'label' => __('News section description', 'consultup'),
+        'label' => __('News section description', 'icyclub'),
         'section' => 'news_section',
         'type' => 'textarea',
     ) );
@@ -1601,10 +1601,10 @@ $wp_customize->add_section( 'news_section' , array(
 
     $wp_customize->add_control( 'consultup_post_content_type', array(
         'type'     => 'radio',
-        'label'    => esc_html__( 'Blog Post Content Type', 'consultup' ),
+        'label'    => esc_html__( 'Blog Post Content Type', 'icyclub' ),
         'choices'  => array(
-            'content'          => esc_html__( 'Content', 'consultup' ),
-            'excerpt' => esc_html__( 'Excerpt', 'consultup' ),
+            'content'          => esc_html__( 'Content', 'icyclub' ),
+            'excerpt' => esc_html__( 'Excerpt', 'icyclub' ),
         ),
         'section'  => 'news_section',
         'settings' => 'consultup_post_content_type',
@@ -1614,10 +1614,10 @@ $wp_customize->add_section( 'news_section' , array(
     $wp_customize->add_setting(
 		'consultup_excerpt_length', array(
         'capability' => 'edit_theme_options',
-		'default' => __('180','consultup'),
+		'default' => __('180','icyclub'),
     ) );
     $wp_customize->add_control( 'consultup_excerpt_length', array(
-        'label' => __('Excerpt length', 'consultup'),
+        'label' => __('Excerpt length', 'icyclub'),
         'section' => 'news_section',
         'type' => 'number',
     ) );
@@ -1627,13 +1627,13 @@ $wp_customize->add_section( 'news_section' , array(
     $wp_customize->add_setting(
 		'news_section_post_count', array(
         'capability' => 'edit_theme_options',
-		'default' => __('3','consultup'),
+		'default' => __('3','icyclub'),
     ) );
     $wp_customize->add_control( 'news_section_post_count', array(
-        'label' => __('Number of Items', 'consultup'),
+        'label' => __('Number of Items', 'icyclub'),
         'section' => 'news_section',
         'type' => 'select',
-        'choices' => array('3'=>__('3', 'consultup'),'6' => __('6','consultup'), '9' => __('9','consultup'),'12'=> __('12','consultup')),
+        'choices' => array('3'=>__('3', 'icyclub'),'6' => __('6','icyclub'), '9' => __('9','icyclub'),'12'=> __('12','icyclub')),
     ) );
 
     $wp_customize->add_setting(
@@ -1643,7 +1643,7 @@ $wp_customize->add_section( 'news_section' , array(
     
     $wp_customize->add_control(new Consultup_Customize_Alpha_Color_Control( $wp_customize,
         'header_img_bg_color', array(
-        'label'      => __('Overlay Color', 'consultup' ),
+        'label'      => __('Overlay Color', 'icyclub' ),
         'palette' => true,
         'section' => 'header_image')
     ) );

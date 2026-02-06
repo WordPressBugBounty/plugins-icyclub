@@ -8,8 +8,8 @@ if ( ! function_exists( 'icycp_transportex_slider' ) ) :
     $defaults = array(
       array(
       'slider_title'      => '  We take care of your goods deliver World Wide',
-      'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'transportex' ),
-      'btnone'      => __('Read More','transportex'),
+      'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'icyclub' ),
+      'btnone'      => __('Read More','icyclub'),
       'btnonelink'       => '#',
       'image_uri'  => ICYCP_PLUGIN_URL .'inc/transportex/images/slider/slide01.jpg',
       'open_btnone_new_window' => 'no',
@@ -17,8 +17,8 @@ if ( ! function_exists( 'icycp_transportex_slider' ) ) :
       ),
       array(
       'slider_title'      => 'Transport your goods Around the World',
-      'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'transportex' ),
-      'btnone'      => __('Read More','transportex'),
+      'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'icyclub' ),
+      'btnone'      => __('Read More','icyclub'),
       'btnonelink'       => '#',
       'image_uri'  => ICYCP_PLUGIN_URL .'inc/transportex/images/slider/slide02.jpg',
       'open_btnone_new_window' => 'no',
@@ -26,8 +26,8 @@ if ( ! function_exists( 'icycp_transportex_slider' ) ) :
       ),
       array(
       'slider_title'      => 'We help world Wide  from our fleet Send it anywhere',
-      'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'transportex' ),
-      'btnone'      => __('Read More','transportex'),
+      'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'icyclub' ),
+      'btnone'      => __('Read More','icyclub'),
       'btnonelink'       => '#',
       'image_uri'  => ICYCP_PLUGIN_URL .'inc/transportex/images/slider/slide03.jpg',
       'open_btnone_new_window' => 'no',
@@ -239,27 +239,27 @@ if ( ! function_exists( 'icycp_transportex_service' ) ) :
     $defaults = array(
       array(
         'fa_icon' => 'fa fa-plane ',
-        'service_title'      => esc_html__( 'Air Freight', 'transportex' ),
+        'service_title'      => esc_html__( 'Air Freight', 'icyclub' ),
         'service_desc'       => "looks there isn't anything embarrassing hidden in the middle of text",
-        'btnmore'      => __('Read More','transportex'),
+        'btnmore'      => __('Read More','icyclub'),
         'btnlink'       => '#',
         'open_new_window' => 'no',
         'id'         => 'customizer_repeater_56d7ea7f40b56',
       ),
       array(	
         'fa_icon' => 'fa fa-truck',
-        'service_title'      => esc_html__( 'Groung Shipping', 'transportex' ),
+        'service_title'      => esc_html__( 'Groung Shipping', 'icyclub' ),
         'service_desc'       => "looks there isn't anything embarrassing hidden in the middle of text",
-        'btnmore'      => __('Read More','transportex'),
+        'btnmore'      => __('Read More','icyclub'),
         'btnlink'       => '#',
         'open_new_window' => 'no',
         'id'         => 'customizer_repeater_56d7ea7f40b86',
       ),
       array(	
         'fa_icon' => 'fa fa-ship',
-        'service_title'      => esc_html__( 'Sea Delivery', 'transportex' ),
+        'service_title'      => esc_html__( 'Sea Delivery', 'icyclub' ),
         'service_desc'       => "looks there isn't anything embarrassing hidden in the middle of text",
-        'btnmore'      => __('Read More','transportex'),
+        'btnmore'      => __('Read More','icyclub'),
         'btnlink'       => '#',
         'open_new_window' => 'no',
         'id'         => 'customizer_repeater_56d7ea7f40b86',
@@ -408,12 +408,12 @@ if ( ! function_exists( 'icycp_transportex_callout' ) ) :
 		
 		$transportex_callout_background = get_theme_mod('transportex_callout_background',ICYCP_PLUGIN_URL .'inc/transportex/images/callout/callout-back.jpg');
 		$transportex_callout_overlay_color = get_theme_mod('transportex_callout_overlay_color', '#50b9ce');
-		$transportex_callout_title = get_theme_mod('transportex_callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!','transportex'));
+		$transportex_callout_title = get_theme_mod('transportex_callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!','icyclub'));
 		$transportex_callout_description = get_theme_mod('transportex_callout_description','We must explain to you how all this mistransportexken idea of denouncing pleasure');
-		$button_one_label = get_theme_mod('transportex_callout_button_one_label',__('Explore Now','transportex'));
+		$button_one_label = get_theme_mod('transportex_callout_button_one_label',__('Explore Now','icyclub'));
 		$button_one_link = get_theme_mod('transportex_callout_button_one_link','#');
 		$button_one_target = get_theme_mod('transportex_callout_button_one_target',false);
-    $button_two_label = get_theme_mod('transportex_callout_button_two_label',__('Buy Now!','transportex'));
+    $button_two_label = get_theme_mod('transportex_callout_button_two_label',__('Buy Now!','icyclub'));
 		$button_two_link = get_theme_mod('transportex_callout_button_two_link','#');
 		$button_two_target = get_theme_mod('transportex_callout_button_two_target',false);
 		$transportex_callout_enable = get_theme_mod('transportex_callout_enable', 1 );
@@ -465,8 +465,8 @@ if ( ! function_exists( 'icycp_transportex_testimonial' ) ) :
 							array(
 					'subtitle'      => 'Linda Guthrie',
 					'text'       => 'We have put the apim bol, temporarily so that we looking quick do your web search manager caught you and you are fured eat our own dog food golden goose',
-					'designation' => __('UI Developer','transportex'),
-					'test_title'      => esc_html__( 'Professional Team', 'transportex' ),
+					'designation' => __('UI Developer','icyclub'),
+					'test_title'      => esc_html__( 'Professional Team', 'icyclub' ),
 					'link'       => '#',
 					'image_url'  => ICYCP_PLUGIN_URL .'inc/transportex/images/testimonial/testi1.jpg',
 					'open_new_tab' => 'no',
@@ -476,8 +476,8 @@ if ( ! function_exists( 'icycp_transportex_testimonial' ) ) :
 					array(
 					'subtitle'      => 'Matt John',
 					'text'       => 'but if you want to motivate these clowns, try less carrot and more stick you better eat a reality sandwich before you walk back in that boardroom.',
-					'designation' => __('Manager','transportex'),
-					'test_title'      => esc_html__( 'Professional Team', 'transportex' ),
+					'designation' => __('Manager','icyclub'),
+					'test_title'      => esc_html__( 'Professional Team', 'icyclub' ),
 					'link'       => '#',
 					'image_url'  => ICYCP_PLUGIN_URL .'inc/transportex/images/testimonial/testi2.jpg',
 					'open_new_tab' => 'no',
@@ -634,7 +634,7 @@ border-color: <?php echo $transportex_news_text_color ?>;
       <div class="row">
         <div class="col-md-12 wow fadeInDown animated padding-bottom-50 text-center">
           <div class="ta-heading">
-            <?php $transportex_news_title = get_theme_mod('transportex_news_title',__('Reach Your Place Sure & Safe','transportex'));
+            <?php $transportex_news_title = get_theme_mod('transportex_news_title',__('Reach Your Place Sure & Safe','icyclub'));
           
             if( !empty($transportex_news_title) ):
               echo '<h3 class="ta-heading-inner">'.$transportex_news_title.'</h3>';
@@ -688,7 +688,7 @@ border-color: <?php echo $transportex_news_text_color ?>;
                 <?php echo esc_attr(get_the_date('j')); ?>
                 <?php echo esc_attr(get_the_date('M')); ?>
               </span> 
-              <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>"><?php _e('by','transportex'); ?>
+              <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>"><?php _e('by','icyclub'); ?>
               <?php the_author(); ?>
               </a>
 			 <?php } ?>			  

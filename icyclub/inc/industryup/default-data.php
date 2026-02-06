@@ -5,23 +5,23 @@ function industryup_get_social_icon_default() {
 		'industryup_get_social_icon_default', json_encode(
 				 array(
 				array(
-					'icon_value'	  =>  esc_html__( 'fa-facebook', 'industryup' ),
+					'icon_value'	  =>  esc_html__( 'fa-facebook', 'icyclub' ),
 					'link'	  =>  '#',
 					'id'              => 'customizer_repeater_header_social_101',
 				),
 				array(
-					'icon_value'	  =>  esc_html__( 'fa-twitter', 'industryup' ),
+					'icon_value'	  =>  esc_html__( 'fa-twitter', 'icyclub' ),
 					'link'	  =>  '#',
 					'id'              => 'customizer_repeater_header_social_102',
 				),
 
 				array(
-					'icon_value'	  =>  esc_html__( 'fa-linkedin', 'industryup' ),
+					'icon_value'	  =>  esc_html__( 'fa-linkedin', 'icyclub' ),
 					'link'	  =>  '#',
 					'id'              => 'customizer_repeater_header_social_103',
 				),
 				array(
-					'icon_value'	  =>  esc_html__( 'fa-instagram', 'industryup' ),
+					'icon_value'	  =>  esc_html__( 'fa-instagram', 'icyclub' ),
 					'link'	  =>  '#',
 					'id'              => 'customizer_repeater_header_social_104',
 				),
@@ -39,21 +39,21 @@ function industryup_get_social_icon_default() {
 		'industryup_get_service_default', json_encode(
 				 array(
 				array(
-					'title'           => esc_html__( 'Business Consulting', 'industryup' ),
-					'text'            => esc_html__( 'We’re the leading consulting explain to you how all this mista ke idea of denouncing pleasure and praising pain was born', 'industryup' ),
+					'title'           => esc_html__( 'Business Consulting', 'icyclub' ),
+					'text'            => esc_html__( 'We’re the leading consulting explain to you how all this mista ke idea of denouncing pleasure and praising pain was born', 'icyclub' ),
 					'icon_value'       => 'fa-hands-helping',
 					'id'              => 'customizer_repeater_service_101',
 					
 				),
 				array(
-					'title'           => esc_html__( 'Market Analysis', 'industryup' ),
-					'text'            => esc_html__( 'We’re the leading consulting explain to you how all this mista ke idea of denouncing pleasure and praising pain was born', 'industryup' ),
+					'title'           => esc_html__( 'Market Analysis', 'icyclub' ),
+					'text'            => esc_html__( 'We’re the leading consulting explain to you how all this mista ke idea of denouncing pleasure and praising pain was born', 'icyclub' ),
 					'icon_value'       => 'fa-chart-line',
 					'id'              => 'customizer_repeater_service_102',				
 				),
 				array(
-					'title'           => esc_html__( 'Financial Planning', 'industryup' ),
-					'text'            => esc_html__( 'We’re the leading consulting explain to you how all this mista ke idea of denouncing pleasure and praising pain was born', 'industryup' ),
+					'title'           => esc_html__( 'Financial Planning', 'icyclub' ),
+					'text'            => esc_html__( 'We’re the leading consulting explain to you how all this mista ke idea of denouncing pleasure and praising pain was born', 'icyclub' ),
 					'icon_value'       => 'fa-briefcase',
 					'id'              => 'customizer_repeater_service_103',
 				),
@@ -119,7 +119,7 @@ function industryup_get_social_icon_default() {
 					'title'      => 'Professional Team',
 					'test_title'      => 'Williams Moore',
 					'text'       => 'Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium',
-					'designation' => __('Designer','industryup'),
+					'designation' => __('Designer','icyclub'),
 					'link'       => '#',
 					'image_url'  => ICYCP_PLUGIN_URL .'inc/industryup/images/team/team1.jpg',
 					'open_new_tab' => 'no',
@@ -130,7 +130,7 @@ function industryup_get_social_icon_default() {
 					'title'      => 'Professional Team',
 					'test_title'      => 'Ronald Thompson',
 					'text'       => 'Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium',
-					'designation' => __('Developer','industryup'),
+					'designation' => __('Developer','icyclub'),
 					'link'       => '#',
 					'image_url'  => ICYCP_PLUGIN_URL .'inc/industryup/images/team/team2.jpg',
 					'open_new_tab' => 'no',
@@ -140,7 +140,7 @@ function industryup_get_social_icon_default() {
 					'title'      => 'Professional Team',
 					'test_title'      => 'Laura Walker',
 					'text'       => 'Vestibulum quis porttitor dui! viverra nunc mi, Aliquam condimentum mattis neque sed pretium Aliquam condimentum mattis neque sed pretiumAliquam condimentum mattis neque sed pretium',
-					'designation' => __('Co-Founder','industryup'),
+					'designation' => __('Co-Founder','icyclub'),
 					'link'       => '#',
 					'image_url'  => ICYCP_PLUGIN_URL .'inc/industryup/images/team/team3.jpg',
 					'id'         => 'customizer_repeater_56d7ea7f40b98',

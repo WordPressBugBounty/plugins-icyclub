@@ -1,7 +1,7 @@
 <?php 
 if ( ! function_exists( 'icycp_industryup_service' ) ) :
     function icycp_industryup_service() {
-    $service_section_title = get_theme_mod('service_section_title',__('SERVICE WE PROVIDE','industryup'));
+    $service_section_title = get_theme_mod('service_section_title',__('SERVICE WE PROVIDE','icyclub'));
     
     $service_section_discription = get_theme_mod('service_section_discription','Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim idm est laborum.');
     

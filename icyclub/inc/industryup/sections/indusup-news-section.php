@@ -6,11 +6,11 @@ function icycp_industryup_news() {
 
 $news_section_show         = get_theme_mod('news_section_show','1');
 if($news_section_show == '1') {
-$news_section_title = get_theme_mod('news_section_title',__('Latest News','industryup'));
+$news_section_title = get_theme_mod('news_section_title',__('Latest News','icyclub'));
 $news_section_subtitle = get_theme_mod('news_section_subtitle','Our Blog');
 
 $news_section_description= get_theme_mod('news_section_description','laoreet ipsum eu laoreet. ugiignissimat Vivamus dignissim feugiat erat sit amet convallis.');
-$news_section_post_count = get_theme_mod('news_section_post_count', __('3','industryup'));
+$news_section_post_count = get_theme_mod('news_section_post_count', __('3','icyclub'));
 ?>
 <!--==================== BLOG SECTION ====================-->
   <section id="news-section" class="bs-section blog">
@@ -60,8 +60,8 @@ $news_section_post_count = get_theme_mod('news_section_post_count', __('3','indu
                     </div>
                     <?php $consultup_post_content_type = get_theme_mod('consultup_post_content_type','content'); 
 				if($consultup_post_content_type == 'content') {
-				 the_content(__('Read More','consultup'));
-					wp_link_pages( array( 'before' => '<div class="link btn-0">' . __( 'Pages:', 'industryup' ), 'after' => '</div>' ) ); }
+				 the_content(__('Read More','icyclub'));
+					wp_link_pages( array( 'before' => '<div class="link btn-0">' . __( 'Pages:', 'icyclub' ), 'after' => '</div>' ) ); }
 					elseif($consultup_post_content_type == 'excerpt')
 					{ ?>
 						<p><?php echo icyclub_news_excerpt(); ?></p>

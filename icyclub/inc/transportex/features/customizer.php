@@ -71,7 +71,7 @@ class transportex_upgrade_notice extends WP_Customize_Control {
             ) );	
             
             $wp_customize->add_control(new transportex_Customize_Alpha_Color_Control( $wp_customize,'slider_overlay_color', array(
-               'label'      => __('Image Overlay Color','transportex' ),
+               'label'      => __('Image Overlay Color','icyclub' ),
                 'palette' => true,
                 'section' => 'slider_section')
             ) );
@@ -81,10 +81,10 @@ class transportex_upgrade_notice extends WP_Customize_Control {
 			) );
 	
 			$wp_customize->add_control( new Transportex_Repeater_Control( $wp_customize, 'transportex_slider_content', array(
-				'label'                                    => esc_html__( 'Slider Content', 'transportex' ),
+				'label'                                    => esc_html__( 'Slider Content', 'icyclub' ),
 				'section'                                  => 'slider_section',
-				'add_field_label'                          => esc_html__( 'Add new Slider', 'transportex' ),
-				'item_name'                                => esc_html__( 'Slider', 'transportex' ),
+				'add_field_label'                          => esc_html__( 'Add new Slider', 'icyclub' ),
+				'item_name'                                => esc_html__( 'Slider', 'icyclub' ),
 				'customizer_repeater_title_control'        => true,
 				'customizer_repeater_text_control'         => true,
 				'customizer_repeater_button_text_control'  => true,
@@ -102,8 +102,8 @@ class transportex_upgrade_notice extends WP_Customize_Control {
 				$defaults = array(
 				array(
 				'slider_title'      => '  We take care of your goods deliver World Wide',
-				'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'transportex' ),
-				'btnone'      => __('Read More','transportex'),
+				'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'icyclub' ),
+				'btnone'      => __('Read More','icyclub'),
 				'btnonelink'       => '#',
 				'image_uri'  => ICYCP_PLUGIN_URL .'inc/transportex/images/slider/slide01.jpg',
 				'open_btnone_new_window' => 'no',
@@ -111,8 +111,8 @@ class transportex_upgrade_notice extends WP_Customize_Control {
 				),
 				array(
 				'slider_title'      => 'Transport your goods Around the World',
-				'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'transportex' ),
-				'btnone'      => __('Read More','transportex'),
+				'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'icyclub' ),
+				'btnone'      => __('Read More','icyclub'),
 				'btnonelink'       => '#',
 				'image_uri'  => ICYCP_PLUGIN_URL .'inc/transportex/images/slider/slide02.jpg',
 				'open_btnone_new_window' => 'no',
@@ -120,8 +120,8 @@ class transportex_upgrade_notice extends WP_Customize_Control {
 				),
 				array(
 				'slider_title'      => 'We help world Wide  from our fleet Send it anywhere',
-				'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'transportex' ),
-				'btnone'      => __('Read More','transportex'),
+				'slider_desc'       => esc_html__( ' Global logistics and transportation services via sea, land and air. We will protect you from risk and liability.', 'icyclub' ),
+				'btnone'      => __('Read More','icyclub'),
 				'btnonelink'       => '#',
 				'image_uri'  => ICYCP_PLUGIN_URL .'inc/transportex/images/slider/slide03.jpg',
 				'open_btnone_new_window' => 'no',
@@ -288,7 +288,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'transportex_service_background', array(
-			'label'    => __( 'Background Image', 'transportex' ),
+			'label'    => __( 'Background Image', 'icyclub' ),
 			'section'  => 'services_section',
 			'settings' => 'transportex_service_background',
 		) ) );
@@ -301,7 +301,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 
 		$wp_customize->add_control( new Transportex_Customize_Alpha_Color_Control( $wp_customize,'transportex_service_overlay_color', array(
-			'label'      => __('Overlay Color', 'transportex' ),
+			'label'      => __('Overlay Color', 'icyclub' ),
 			'section'    => 'services_section',
 			'palette' => true,
 			'settings'   => 'transportex_service_overlay_color',) 
@@ -316,7 +316,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize,'transportex_service_text_color', array(
-		   'label'      => __('Text Color', 'transportex' ),
+		   'label'      => __('Text Color', 'icyclub' ),
 			'palette' => true,
 			'section' => 'services_section')
 		) );
@@ -353,10 +353,10 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			) );
 
 			$wp_customize->add_control( new Transportex_Repeater_Control( $wp_customize, 'transportex_service_content', array(
-				'label'                             => esc_html__( 'Service Content', 'transportex' ),
+				'label'                             => esc_html__( 'Service Content', 'icyclub' ),
 				'section'                           => 'services_section',
-				'add_field_label'                   => esc_html__( 'Add new Service', 'transportex' ),
-				'item_name'                         => esc_html__( 'Service', 'transportex' ),
+				'add_field_label'                   => esc_html__( 'Add new Service', 'icyclub' ),
+				'item_name'                         => esc_html__( 'Service', 'icyclub' ),
 				'customizer_repeater_icon_control' => true,
 				'customizer_repeater_title_control' => true,
 				'customizer_repeater_text_control'  => true,
@@ -373,27 +373,27 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 					$defaults = array(
 						array(
 							'fa_icon' => 'fa fa-plane ',
-							'service_title'      => esc_html__( 'Air Freight', 'transportex' ),
+							'service_title'      => esc_html__( 'Air Freight', 'icyclub' ),
 							'service_desc'       => "looks there isn't anything embarrassing hidden in the middle of text",
-							'btnmore'      => __('Read More','transportex'),
+							'btnmore'      => __('Read More','icyclub'),
 							'btnlink'       => '#',
 							'open_new_window' => 'no',
 							'id'         => 'customizer_repeater_56d7ea7f40b56',
 						),
 						array(	
 							'fa_icon' => 'fa fa-truck',
-							'service_title'      => esc_html__( 'Groung Shipping', 'transportex' ),
+							'service_title'      => esc_html__( 'Groung Shipping', 'icyclub' ),
 							'service_desc'       => "looks there isn't anything embarrassing hidden in the middle of text",
-							'btnmore'      => __('Read More','transportex'),
+							'btnmore'      => __('Read More','icyclub'),
 							'btnlink'       => '#',
 							'open_new_window' => 'no',
 							'id'         => 'customizer_repeater_56d7ea7f40b86',
 						),
 						array(	
 							'fa_icon' => 'fa fa-ship',
-							'service_title'      => esc_html__( 'Sea Delivery', 'transportex' ),
+							'service_title'      => esc_html__( 'Sea Delivery', 'icyclub' ),
 							'service_desc'       => "looks there isn't anything embarrassing hidden in the middle of text",
-							'btnmore'      => __('Read More','transportex'),
+							'btnmore'      => __('Read More','icyclub'),
 							'btnlink'       => '#',
 							'open_new_window' => 'no',
 							'id'         => 'customizer_repeater_56d7ea7f40b86',
@@ -512,7 +512,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
 /* Slider Section */
 	$wp_customize->add_section( 'home_callout_section' , array(
-		'title'      => __('Callout Section', 'transportex'),
+		'title'      => __('Callout Section', 'icyclub'),
 		'panel'  => 'homepage_setting',
 		'priority'   => 3,
    	) );
@@ -546,7 +546,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				'transportex_callout_background',
 				array(
 					'type'        => 'upload',
-					'label' => __('Image','transportex'),
+					'label' => __('Image','icyclub'),
 					'settings' =>'transportex_callout_background',
 					'section' => 'home_callout_section',
 					
@@ -563,7 +563,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 
 		$wp_customize->add_control(new Transportex_Customize_Alpha_Color_Control( $wp_customize,'transportex_callout_overlay_color', array(
-			'label' => __('Overlay Color','transportex'),
+			'label' => __('Overlay Color','icyclub'),
 			'palette' => true,
 			'section' => 'home_callout_section')
 		) );
@@ -574,7 +574,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize,'transportex_callout_text_color', array(
-		   'label'      => __('Text Color', 'transportex' ),
+		   'label'      => __('Text Color', 'icyclub' ),
 			'palette' => true,
 			'section' => 'home_callout_section')
 		) );
@@ -582,12 +582,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout title
 		$wp_customize->add_setting( 'transportex_callout_title',array(
-		'default' => __('Reach Your Place Sure & Safe','transportex'),
+		'default' => __('Reach Your Place Sure & Safe','icyclub'),
 		'sanitize_callback' => 'icycp_transportex_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'transportex_callout_title',array(
-		'label'   => __('Title','transportex'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));	
@@ -599,7 +599,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'transportex_callout_description',array(
-		'label'   => __('Description','transportex'),
+		'label'   => __('Description','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'textarea',
 		));
@@ -607,12 +607,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout button text
 		$wp_customize->add_setting( 'transportex_callout_button_one_label',array(
-		'default' => __('Explore Now','transportex'),
+		'default' => __('Explore Now','icyclub'),
 		'sanitize_callback' => 'icycp_transportex_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'transportex_callout_button_one_label',array(
-		'label'   => __('Button Text','transportex'),
+		'label'   => __('Button Text','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -624,7 +624,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		// 'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'transportex_callout_button_one_link',array(
-		'label'   => __('Button Link','transportex'),
+		'label'   => __('Button Link','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -637,7 +637,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'sanitize_callback' => 'icycp_transportex_home_page_sanitize_text',
 		));
 		$wp_customize->add_control('transportex_callout_button_one_target', array(
-			'label'   => __('Open link in new tab', 'transportex'),
+			'label'   => __('Open link in new tab', 'icyclub'),
 			'section' => 'home_callout_section',
 			'type' => 'checkbox',
 		));
@@ -645,14 +645,14 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//Callout Button Two Label Setting	
 		$wp_customize->add_setting(
 			'transportex_callout_button_two_label', array(
-			'default' => __('Buy Now!','transportex'),
+			'default' => __('Buy Now!','icyclub'),
 			'capability' => 'edit_theme_options',
 			'sanitize_callback' => 'transportex_template_sanitize_html',
 			'transport'         => $selective_refresh,
 		) );	
 		$wp_customize->add_control( 
 			'transportex_callout_button_two_label', array(
-			'label' => __('Button Text','transportex'),
+			'label' => __('Button Text','icyclub'),
 			'section' => 'home_callout_section',
 			'type' => 'text',
 		) );	
@@ -666,7 +666,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );	
 		$wp_customize->add_control( 
 			'transportex_callout_button_two_link', array(
-			'label' => __('Button Link','transportex'),
+			'label' => __('Button Link','icyclub'),
 			'type' => 'text',
 			'section' => 'home_callout_section',
 		) );	
@@ -680,7 +680,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );	
 		$wp_customize->add_control( 
 			'transportex_callout_button_two_target', array(
-			'label' => __('Open link in a new tab','transportex'),
+			'label' => __('Open link in a new tab','icyclub'),
 			'section' => 'home_callout_section',
 			'type' => 'checkbox',
 		) );
@@ -781,7 +781,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 
 			'transportex_calltoaction_background', array(
-			'label'    => __( 'Background Image', 'transportex' ),
+			'label'    => __( 'Background Image', 'icyclub' ),
 			'section'  => 'calltoaction_section',
 			'settings' => 'transportex_calltoaction_background',) 
 		) );
@@ -794,7 +794,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new Transportex_Customize_Alpha_Color_Control( $wp_customize,'transportex_calltoaction_overlay_color', array(
-			'label'      => __('Overlay Color', 'transportex' ),
+			'label'      => __('Overlay Color', 'icyclub' ),
 			'palette' => true,
 			'section' => 'calltoaction_section')
 		) );
@@ -806,7 +806,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		) );
 		
 		$wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize,'transportex_calltoaction_text_color', array(
-		   'label'      => __('Text Color', 'transportex' ),
+		   'label'      => __('Text Color', 'icyclub' ),
 			'palette' => true,
 			'section' => 'calltoaction_section')
 		) );
@@ -840,12 +840,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout button text
 		$wp_customize->add_setting( 'transportex_calltoaction_button_one_label',array(
-		'default' => __('Lets Start','transportex'),
+		'default' => __('Lets Start','icyclub'),
 		'sanitize_callback' => 'icycp_transportex_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'transportex_calltoaction_button_one_label',array(
-		'label'   => __('Button Text','transportex'),
+		'label'   => __('Button Text','icyclub'),
 		'section' => 'calltoaction_section',
 		'type' => 'text',
 		));
@@ -857,7 +857,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'transportex_calltoaction_button_one_link',array(
-		'label'   => __('Button Link','transportex'),
+		'label'   => __('Button Link','icyclub'),
 		'section' => 'calltoaction_section',
 		'type' => 'text',
 		));
@@ -870,7 +870,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'sanitize_callback' => 'icycp_transportex_home_page_sanitize_text',
 		));
 		$wp_customize->add_control('transportex_calltoaction_button_one_target', array(
-			'label'   => __('Open link in new tab', 'transportex'),
+			'label'   => __('Open link in new tab', 'icyclub'),
 			'section' => 'calltoaction_section',
 			'type' => 'checkbox',
 		));
@@ -1010,12 +1010,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		// testimonial section title
 		$wp_customize->add_setting( 'testimonial_section_title',array(
 		'capability'     => 'edit_theme_options',
-		'default' => __('Our Clients Says','transportex'),
+		'default' => __('Our Clients Says','icyclub'),
 		'sanitize_callback' => 'icycp_transportex_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'testimonial_section_title',array(
-		'label'   => __('Title','transportex'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'testimonial_section',
 		'type' => 'text',
 		));	
@@ -1038,10 +1038,10 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			) );
 	
 			$wp_customize->add_control( new Transportex_Repeater_Control( $wp_customize, 'transportex_testimonial_content', array(
-				'label'                                => esc_html__( 'Testimonial Content', 'bussinessup' ),
+				'label'                                => esc_html__( 'Testimonial Content', 'icyclub' ),
 				'section'                              => 'testimonial_section',
-				'add_field_label'                      => esc_html__( 'Add new Testimonial', 'bussinessup' ),
-				'item_name'                            => esc_html__( 'Testimonial', 'bussinessup' ),
+				'add_field_label'                      => esc_html__( 'Add new Testimonial', 'icyclub' ),
+				'item_name'                            => esc_html__( 'Testimonial', 'icyclub' ),
 				'customizer_repeater_test_title_control' => true,
 				'customizer_repeater_subtitle_control' =>true,
 				'customizer_repeater_text_control'     => true,
@@ -1058,8 +1058,8 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 							array(
 					'subtitle'      => 'Linda Guthrie',
 					'text'       => 'We have put the apim bol, temporarily so that we looking quick do your web search manager caught you and you are fured eat our own dog food golden goose',
-					'designation' => __('UI Developer','transportex'),
-					'test_title'      => esc_html__( 'Professional Team', 'transportex' ),
+					'designation' => __('UI Developer','icyclub'),
+					'test_title'      => esc_html__( 'Professional Team', 'icyclub' ),
 					'link'       => '#',
 					'image_url'  => ICYCP_PLUGIN_URL .'inc/transportex/images/testimonial/testi1.jpg',
 					'open_new_tab' => 'no',
@@ -1069,8 +1069,8 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 					array(
 					'subtitle'      => 'Matt John',
 					'text'       => 'but if you want to motivate these clowns, try less carrot and more stick you better eat a reality sandwich before you walk back in that boardroom.',
-					'designation' => __('Manager','transportex'),
-					'test_title'      => esc_html__( 'Professional Team', 'transportex' ),
+					'designation' => __('Manager','icyclub'),
+					'test_title'      => esc_html__( 'Professional Team', 'icyclub' ),
 					'link'       => '#',
 					'image_url'  => ICYCP_PLUGIN_URL .'inc/transportex/images/testimonial/testi2.jpg',
 					'open_new_tab' => 'no',
@@ -1156,7 +1156,7 @@ if ( ! function_exists( 'icycp_transportex_latest_news_customize_register' ) ) :
             // add section to manage Latest News
             $wp_customize->add_section(
                 'transportex_news_section_settings', array(
-                'title' => __('Latest News settings','transportex'),
+                'title' => __('Latest News settings','icyclub'),
                 'description' => '',
                 'panel'  => 'homepage_setting'
             ) );
@@ -1184,7 +1184,7 @@ if ( ! function_exists( 'icycp_transportex_latest_news_customize_register' ) ) :
             ) );
             $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 
                 'transportex_news_background', array(
-                'label'    => __( 'Background Image', 'transportex' ),
+                'label'    => __( 'Background Image', 'icyclub' ),
                 'section'  => 'transportex_news_section_settings',
                 'settings' => 'transportex_news_background', ) 
             ) );
@@ -1195,7 +1195,7 @@ if ( ! function_exists( 'icycp_transportex_latest_news_customize_register' ) ) :
             ) );
             
             $wp_customize->add_control(new Transportex_Customize_Alpha_Color_Control( $wp_customize,'transportex_news_overlay_color', array(
-                'label' => __('Overlay Color', 'transportex' ),
+                'label' => __('Overlay Color', 'icyclub' ),
                 'palette' => true,
                 'section' => 'transportex_news_section_settings')
             ) );
@@ -1206,7 +1206,7 @@ if ( ! function_exists( 'icycp_transportex_latest_news_customize_register' ) ) :
             ) );
             
             $wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize,'transportex_news_text_color', array(
-                'label' => __('Text Color', 'transportex' ),
+                'label' => __('Text Color', 'icyclub' ),
                 'palette' => true,
                 'section' => 'transportex_news_section_settings')
             ) );
@@ -1220,7 +1220,7 @@ if ( ! function_exists( 'icycp_transportex_latest_news_customize_register' ) ) :
             ) );
             $wp_customize->add_control(
                 'disable_news_meta', array(
-                'label' => __('Hide post meta from News section','transportex'),
+                'label' => __('Hide post meta from News section','icyclub'),
                 'section' => 'transportex_news_section_settings',
                 'type' => 'checkbox',
             ) );
@@ -1228,14 +1228,14 @@ if ( ! function_exists( 'icycp_transportex_latest_news_customize_register' ) ) :
             // Latest News Title Setting
             $wp_customize->add_setting(
                 'transportex_news_title', array(
-                'default' => __('Latest News','transportex'),
+                'default' => __('Latest News','icyclub'),
                 'capability'     => 'edit_theme_options',
                 'sanitize_callback' => 'transportex_template_sanitize_html',
 				'transport'         => $selective_refresh,
             ) );    
             $wp_customize->add_control( 
                 'transportex_news_title',array(
-                'label'   => __('Title','transportex'),
+                'label'   => __('Title','icyclub'),
                 'section' => 'transportex_news_section_settings',
                 'type' => 'text',
             ) );
@@ -1250,7 +1250,7 @@ if ( ! function_exists( 'icycp_transportex_latest_news_customize_register' ) ) :
             ) );  
             $wp_customize->add_control( 
                 'transportex_news_subtitle',array(
-                'label'   => __('Description','transportex'),
+                'label'   => __('Description','icyclub'),
                 'section' => 'transportex_news_section_settings',
                 'type' => 'textarea',
             ) );    
@@ -1265,7 +1265,7 @@ if ( ! function_exists( 'icycp_transportex_latest_news_customize_register' ) ) :
             $wp_customize->add_control(
                 'news_select', array(
                 'type' => 'select',
-                'label' => __('Select Number of Post','transportex'),
+                'label' => __('Select Number of Post','icyclub'),
                 'section' => 'transportex_news_section_settings',
                 'choices' => array(3=>3, 6=>6, 9=>9, 12=>12, 15=>15, 18=>18, 21=>21),
             ) );

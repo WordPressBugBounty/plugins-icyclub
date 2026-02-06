@@ -10,17 +10,17 @@ if ( ! function_exists( 'icycp_industryup_portfolio' ) ) :
     $portfolio_section_subtitle = get_theme_mod('portfolio_section_subtitle','OUR PORTFOLIO');
     
     $project_image_one = get_theme_mod('project_image_one',ICYCP_PLUGIN_URL .'inc/industryup/images/portfolio/portfolio1.jpg');
-    $project_title_one = get_theme_mod('project_title_one',__('Financial Project','industryup'));
+    $project_title_one = get_theme_mod('project_title_one',__('Financial Project','icyclub'));
     
     $project_image_two = get_theme_mod('project_image_two',ICYCP_PLUGIN_URL .'inc/industryup/images/portfolio/portfolio2.jpg');
-    $project_title_two = get_theme_mod('project_title_two',__('Investment','industryup'));
+    $project_title_two = get_theme_mod('project_title_two',__('Investment','icyclub'));
     
     
     $project_image_three = get_theme_mod('project_image_three',ICYCP_PLUGIN_URL .'inc/industryup/images/portfolio/portfolio3.jpg');
-    $project_title_three = get_theme_mod('project_title_three',__('Invoicing','industryup'));
+    $project_title_three = get_theme_mod('project_title_three',__('Invoicing','icyclub'));
 
       $project_image_four = get_theme_mod('project_image_four',ICYCP_PLUGIN_URL .'inc/industryup/images/portfolio/portfolio4.jpg');
-      $project_title_four = get_theme_mod('project_title_four',__('Team Management','industryup'));
+      $project_title_four = get_theme_mod('project_title_four',__('Team Management','icyclub'));
     
     $project_section_enable         = get_theme_mod('project_section_enable','1');
     if($project_section_enable == '1') {

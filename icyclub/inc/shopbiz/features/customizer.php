@@ -82,7 +82,7 @@ class Icycp_Shopbiz_Toggle_Switch_Custom_control extends WP_Customize_Control {
             ) );	
             
             $wp_customize->add_control(new shopbiz_Customize_Alpha_Color_Control( $wp_customize,'slider_overlay_color_one', array(
-               'label'      => __('Slider image overlay color','shopbiz' ),
+               'label'      => __('Slider image overlay color','icyclub' ),
                 'palette' => true,
                 'section' => 'slider_section')
             ) );
@@ -172,7 +172,7 @@ class Icycp_Shopbiz_Toggle_Switch_Custom_control extends WP_Customize_Control {
             ) );	
             
             $wp_customize->add_control(new shopbiz_Customize_Alpha_Color_Control( $wp_customize,'slider_overlay_color_two', array(
-               'label'      => __('Slider image overlay color','shopbiz' ),
+               'label'      => __('Slider image overlay color','icyclub' ),
                 'palette' => true,
                 'section' => 'slider_section')
             ) );
@@ -262,7 +262,7 @@ class Icycp_Shopbiz_Toggle_Switch_Custom_control extends WP_Customize_Control {
             ) );	
             
             $wp_customize->add_control(new shopbiz_Customize_Alpha_Color_Control( $wp_customize,'slider_overlay_color_three', array(
-               'label'      => __('Slider image overlay color','shopbiz' ),
+               'label'      => __('Slider image overlay color','icyclub' ),
                 'palette' => true,
                 'section' => 'slider_section')
             ) );
@@ -816,7 +816,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 
 /* Slider Section */
 	$wp_customize->add_section( 'home_callout_section' , array(
-		'title'      => __('Callout settings', 'shopbiz'),
+		'title'      => __('Callout settings', 'icyclub'),
 		'panel'  => 'homepage_setting',
 		'priority'   => 3,
    	) );
@@ -850,7 +850,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				'shopbiz_callout_background',
 				array(
 					'type'        => 'upload',
-					'label' => __('Image','shopbiz'),
+					'label' => __('Image','icyclub'),
 					'settings' =>'shopbiz_callout_background',
 					'section' => 'home_callout_section',
 					
@@ -867,7 +867,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
             ) );	
             
             $wp_customize->add_control(new shopbiz_Customize_Alpha_Color_Control( $wp_customize,'shopbiz_overlay_callout_color_control', array(
-               'label'      => __('Callout image overlay color','shopbiz' ),
+               'label'      => __('Callout image overlay color','icyclub' ),
                 'palette' => true,
                 'section' => 'home_callout_section')
             ) );
@@ -875,12 +875,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout title
 		$wp_customize->add_setting( 'shopbiz_callout_title',array(
-		'default' => __('Trusted By Over 10,000 Worldwide Businesses. Try Today!','shopbiz'),
+		'default' => __('Trusted By Over 10,000 Worldwide Businesses. Try Today!','icyclub'),
 		'sanitize_callback' => 'icycp_shopbiz_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'shopbiz_callout_title',array(
-		'label'   => __('Title','shopbiz'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));	
@@ -892,7 +892,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'shopbiz_callout_description',array(
-		'label'   => __('Description','shopbiz'),
+		'label'   => __('Description','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'textarea',
 		));
@@ -900,12 +900,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// callout button text
 		$wp_customize->add_setting( 'shopbiz_callout_button_one_label',array(
-		'default' => __('Get Started Now!','shopbiz'),
+		'default' => __('Get Started Now!','icyclub'),
 		'sanitize_callback' => 'icycp_shopbiz_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'shopbiz_callout_button_one_label',array(
-		'label'   => __('Button Text','shopbiz'),
+		'label'   => __('Button Text','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -917,7 +917,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'shopbiz_callout_button_one_link',array(
-		'label'   => __('Button Link','shopbiz'),
+		'label'   => __('Button Link','icyclub'),
 		'section' => 'home_callout_section',
 		'type' => 'text',
 		));
@@ -930,7 +930,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			'sanitize_callback' => 'icycp_shopbiz_home_page_sanitize_text',
 		));
 		$wp_customize->add_control('shopbiz_callout_button_one_target', array(
-			'label'   => __('Open link in new tab/window', 'shopbiz'),
+			'label'   => __('Open link in new tab/window', 'icyclub'),
 			'section' => 'home_callout_section',
 			'type' => 'checkbox',
 		));
@@ -1265,12 +1265,12 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		// testimonial section title
 		$wp_customize->add_setting( 'testimonial_section_title',array(
 		'capability'     => 'edit_theme_options',
-		'default' => __('Our Clients Says','shopbiz'),
+		'default' => __('Our Clients Says','icyclub'),
 		'sanitize_callback' => 'icycp_shopbiz_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'testimonial_section_title',array(
-		'label'   => __('Title','shopbiz'),
+		'label'   => __('Title','icyclub'),
 		'section' => 'testimonial_section',
 		'type' => 'text',
 		));	
@@ -1390,7 +1390,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		
 		$wp_customize->add_setting( 'testimonial_two_name',array(
-		'default' => __('Williams Moore','shopbiz'),
+		'default' => __('Williams Moore','icyclub'),
 		'sanitize_callback' => 'icycp_shopbiz_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	

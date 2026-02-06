@@ -178,7 +178,7 @@ if ( ! function_exists( 'icycp_consultup_service' ) ) :
                     <p class="service-one-desc"><?php echo $service_one_description; ?></p>
                     <?php 
 					$ser_one_btn_link = get_theme_mod('ser_one_btn_link','#');
-					$ser_one_btn_text = get_theme_mod('ser_one_btn_text',__('Read More','#'));
+					$ser_one_btn_text = get_theme_mod('ser_one_btn_text',__('Read More','icyclub'));
 					$ser_one_btn_tab = get_theme_mod('ser_one_btn_tab',false);
 					if($ser_one_btn_text !='')
 					{ ?>
@@ -199,7 +199,7 @@ if ( ! function_exists( 'icycp_consultup_service' ) ) :
                     <p><?php echo $service_two_description; ?></p>
                     <?php 
 					$ser_two_btn_link = get_theme_mod('ser_two_btn_link','#');
-					$ser_two_btn_text = get_theme_mod('ser_two_btn_text',__('Read More','#'));
+					$ser_two_btn_text = get_theme_mod('ser_two_btn_text',__('Read More','icyclub'));
 					$ser_two_btn_tab = get_theme_mod('ser_two_btn_tab',false);
 					if($ser_two_btn_text !='')
 					{ ?>
@@ -220,7 +220,7 @@ if ( ! function_exists( 'icycp_consultup_service' ) ) :
                     <p><?php echo $service_three_description; ?></p>
                     <?php 
 					$ser_three_btn_link = get_theme_mod('ser_three_btn_link','#');
-					$ser_three_btn_text = get_theme_mod('ser_three_btn_text',__('Read More','#'));
+					$ser_three_btn_text = get_theme_mod('ser_three_btn_text',__('Read More','icyclub'));
 					$ser_three_btn_tab = get_theme_mod('ser_three_btn_tab',false);
 					if($ser_three_btn_text !='')
 					{ ?>
@@ -256,17 +256,17 @@ if ( ! function_exists( 'icycp_consultup_portfolio' ) ) :
 		$portfolio_section_subtitle = get_theme_mod('portfolio_section_subtitle','OUR PORTFOLIO');
 		
 		$project_image_one = get_theme_mod('project_image_one',ICYCP_PLUGIN_URL .'inc/agencyup/images/portfolio/portfolio1.jpg');
-		$project_title_one = get_theme_mod('project_title_one',__('Financial Project','agencyup'));
+		$project_title_one = get_theme_mod('project_title_one',__('Financial Project','icyclub'));
 		
 		$project_image_two = get_theme_mod('project_image_two',ICYCP_PLUGIN_URL .'inc/agencyup/images/portfolio/portfolio2.jpg');
-		$project_title_two = get_theme_mod('project_title_two',__('Investment','agencyup'));
+		$project_title_two = get_theme_mod('project_title_two',__('Investment','icyclub'));
 		
 		
 		$project_image_three = get_theme_mod('project_image_three',ICYCP_PLUGIN_URL .'inc/agencyup/images/portfolio/portfolio3.jpg');
-		$project_title_three = get_theme_mod('project_title_three',__('Invoicing','agencyup'));
+		$project_title_three = get_theme_mod('project_title_three',__('Invoicing','icyclub'));
 
     $project_image_four = get_theme_mod('project_image_four',ICYCP_PLUGIN_URL .'inc/agencyup/images/portfolio/portfolio4.jpg');
-    $project_title_four = get_theme_mod('project_title_four',__('Team Management','agencyup'));
+    $project_title_four = get_theme_mod('project_title_four',__('Team Management','icyclub'));
 		
     $project_section_enable         = get_theme_mod('project_section_enable','1');
     if($project_section_enable == '1') {
@@ -292,9 +292,9 @@ if ( ! function_exists( 'icycp_consultup_portfolio' ) ) :
         <!--portfolio-->
           <!--item-->
 			<!--col-md-12-->
-            <div class="col-md-3 project-one">
+            <div class="col-lg-3 col-md-6 project-one">
               <!--portfolio-->
-               <div class="bs-portfolio-block mb-md-0" style="background-image: url(<?php echo $project_image_one;?>);">
+               <div class="bs-portfolio-block mb-lg-0" style="background-image: url(<?php echo $project_image_one;?>);">
                   <div class="inner-content">
                     <div class="text clearfix">
                      <div class="bottom_text">
@@ -306,9 +306,9 @@ if ( ! function_exists( 'icycp_consultup_portfolio' ) ) :
               <!--/portfolio-->
             </div>
             <!--col-md-12-->
-		  <div class="col-md-3 project-two">
+		  <div class="col-lg-3 col-md-6 project-two">
               <!--portfolio-->
-               <div class="bs-portfolio-block mb-md-0" style="background-image: url(<?php echo $project_image_two;?>);">
+               <div class="bs-portfolio-block mb-lg-0" style="background-image: url(<?php echo $project_image_two;?>);">
                   <div class="inner-content">
                     <div class="text clearfix">
                      <div class="bottom_text">
@@ -319,7 +319,7 @@ if ( ! function_exists( 'icycp_consultup_portfolio' ) ) :
                 </div>
               <!--/portfolio-->
             </div>
-			<div class="col-md-3 project-three">
+			<div class="col-lg-3 col-md-6 project-three">
               <!--portfolio-->
                <div class="bs-portfolio-block mb-md-0" style="background-image: url(<?php echo $project_image_three;?>);">
                   <div class="inner-content">
@@ -332,7 +332,7 @@ if ( ! function_exists( 'icycp_consultup_portfolio' ) ) :
                 </div>
               <!--/portfolio-->
             </div>
-            <div class="col-md-3 project-four">
+            <div class="col-lg-3 col-md-6 project-four">
               <!--portfolio-->
                <div class="bs-portfolio-block mb-md-0" style="background-image: url(<?php echo $project_image_four;?>);">
                   <div class="inner-content">
@@ -452,7 +452,7 @@ $news_section_post_count = get_theme_mod('news_section_post_count', __('3','icyc
         <div class="col text-center">
           <div class="bs-heading">
           	<h3 class="bs-subtitle"><?php echo $news_section_subtitle; ?></h3>
-			<?php $news_section_title = get_theme_mod('news_section_title',__('Latest News','consultup'));?>
+			<?php $news_section_title = get_theme_mod('news_section_title',__('Latest News','icyclub'));?>
               <h2 class="bs-title"><?php echo $news_section_title;?></h2>
 			  <?php $news_section_description = get_theme_mod('news_section_description','laoreet ipsum eu laoreet. ugiignissimat Vivamus dignissim feugiat erat sit amet convallis.');?>
 			  <p><?php echo esc_html($news_section_description);?></p>
@@ -491,8 +491,8 @@ $news_section_post_count = get_theme_mod('news_section_post_count', __('3','icyc
                     </div>
                     <?php $consultup_post_content_type = get_theme_mod('consultup_post_content_type','content'); 
 				if($consultup_post_content_type == 'content') {
-				 the_content(__('Read More','consultup'));
-					wp_link_pages( array( 'before' => '<div class="link btn-theme">' . __( 'Pages:', 'agencyup' ), 'after' => '</div>' ) ); }
+				 the_content(__('Read More','icyclub'));
+					wp_link_pages( array( 'before' => '<div class="link btn-theme">' . __( 'Pages:', 'icyclub' ), 'after' => '</div>' ) ); }
 					elseif($consultup_post_content_type == 'excerpt')
 					{ ?>
 						<p><?php echo icyclub_news_excerpt(); ?></p>
@@ -535,9 +535,9 @@ if ( ! function_exists( 'icycp_consultup_callout' ) ) :
 		$callout_background_image = get_theme_mod('callout_background_image',ICYCP_PLUGIN_URL .'inc/agencyup/images/callout/callout-back.jpg');
 		$callout_back_overlay_color = get_theme_mod('callout_back_overlay_color');
 		$callout_title = get_theme_mod('callout_title',__('Trusted By Over 10,000 Worldwide Businesses. Try Today!
-','agencyup'));
+','icyclub'));
 		$callout_discription = get_theme_mod('callout_discription','looking For Professional Approach & Qaulity Services!');
-		$callout_btn_txt = get_theme_mod('callout_btn_txt',__('Get Started Now!','agencyup'));
+		$callout_btn_txt = get_theme_mod('callout_btn_txt',__('Get Started Now!','icyclub'));
 		$callout_btn_link = get_theme_mod('callout_btn_link','https://themeansar.com/themes/agencyup-pro/');
 		$callout_btn_target = get_theme_mod('callout_btn_target',true);
     $homepage_callout_show         = get_theme_mod('homepage_callout_show','1');

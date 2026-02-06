@@ -59,8 +59,8 @@ $news_section_post_count = get_theme_mod('news_section_post_count', __('3','icyc
                     </div>
                     <?php $consultup_post_content_type = get_theme_mod('consultup_post_content_type','content'); 
 				if($consultup_post_content_type == 'content') {
-				 the_content(__('Read More','consultup'));
-					wp_link_pages( array( 'before' => '<div class="link btn-0">' . __( 'Pages:', 'agencyup' ), 'after' => '</div>' ) ); }
+				 the_content(__('Read More','icyclub'));
+					wp_link_pages( array( 'before' => '<div class="link btn-0">' . __( 'Pages:', 'icyclub' ), 'after' => '</div>' ) ); }
 					elseif($consultup_post_content_type == 'excerpt')
 					{ ?>
 						<p><?php echo icyclub_news_excerpt(); ?></p>

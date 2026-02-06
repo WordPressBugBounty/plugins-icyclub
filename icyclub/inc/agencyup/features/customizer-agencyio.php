@@ -12,7 +12,7 @@
 	$wp_customize->add_control(
 		'hide_show_call_btn', 
 			array(
-				'label'       => esc_html__( 'Hide/Show Call Us', 'agencyio' ),
+				'label'       => esc_html__( 'Hide/Show Call Us', 'icyclub' ),
 				'section'     => 'nav_btn_section',
 				'type'        => 'checkbox'
 			) 
@@ -30,7 +30,7 @@
 		$wp_customize->add_control( 
 			'call_us_icon',
 			array(
-				'label'         => __('Call Us Icon','agencyio'),
+				'label'         => __('Call Us Icon','icyclub'),
 				'section'       => 'nav_btn_section',
 				'type'       => 'text'
 			)  
@@ -48,7 +48,7 @@
 		$wp_customize->add_control( 
 			'call_us_label',
 			array(
-				'label'         => __('Call Us Text','agencyio'),
+				'label'         => __('Call Us Text','icyclub'),
 				'section'       => 'nav_btn_section',
 				'type'       => 'text'
 			)  
@@ -66,7 +66,7 @@
 		$wp_customize->add_control( 
 			'call_us_number',
 			array(
-				'label'         => __('Call Us Number','agencyio'),
+				'label'         => __('Call Us Number','icyclub'),
 				'section'       => 'nav_btn_section',
 				'type'       => 'text'
 			)  
