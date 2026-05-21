@@ -3,11 +3,11 @@
  * Plugin Name:       Icyclub
  * Plugin URI:        
  * Description:       Icyclub plugin is comptible for Themeansar theme.
- * Version:           2.7
+ * Version:           2.8
  * Author:            themeansar
  * Author URI:        https://themeansar.com/
  * License:           GPL-2.0+
- * Tested up to: 	  6.9
+ * Tested up to: 	  7.0
  * Requires: 		  5.6 or higher
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       icyclub
