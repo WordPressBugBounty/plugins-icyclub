@@ -16,9 +16,8 @@
 		update_post_meta( $newvalue, '_wp_page_template', 'page.php' );
 		
 		//Set a blog page
-		$page = get_page_by_title('Blog');
 		update_option( 'show_on_front', 'page' );
-		update_option( 'page_for_posts', $page->ID );
+		update_option( 'page_for_posts', $newvalue );
 		
 	}
 ?>

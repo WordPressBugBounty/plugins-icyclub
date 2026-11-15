@@ -3,11 +3,11 @@
  * Plugin Name:       Icyclub
  * Plugin URI:        
  * Description:       Icyclub plugin is comptible for Themeansar theme.
- * Version:           2.8
+ * Version:           2.9
  * Author:            themeansar
  * Author URI:        https://themeansar.com/
  * License:           GPL-2.0+
- * Tested up to: 	  7.0
+ * Tested up to: 	  7.1
  * Requires: 		  5.6 or higher
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       icyclub
@@ -174,6 +174,9 @@ function icycp_activate() {
 add_action( 'init', 'icycp_activate' );
 
 require_once('inc/consultup/control/control.php');
+
+// Gutenberg-native Custom Post Types (Universal feature for all plugin users)
+require_once( ICYCP_PLUGIN_DIR . 'inc/cpts/cpt-portfolio.php' );
 
 function icycp_enqueue(){
 	wp_enqueue_style('icycp-custom-controls-css', plugin_dir_url(__FILE__) . 'assets/css/customizer.css', false, '1.0.0');

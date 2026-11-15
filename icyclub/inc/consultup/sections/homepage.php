@@ -287,6 +287,54 @@ if ( ! function_exists( 'icycp_consultup_portfolio' ) ) :
       <div class="row">
         <!--portfolio-->
         <div id="portfolio">
+        <?php
+        $portfolio_args = array(
+            'post_type'      => array( 'icyclub_portfolio', 'consultup_portfolio' ),
+            'posts_per_page' => 3,
+            'post_status'    => 'publish',
+        );
+        $portfolio_query = new WP_Query( $portfolio_args );
+
+        if ( $portfolio_query->have_posts() ) {
+            $p_count = 1;
+            while ( $portfolio_query->have_posts() ) : $portfolio_query->the_post();
+                $port_disc        = sanitize_text_field( get_post_meta( get_the_ID(), 'port_disc', true ) );
+                if ( empty( $port_disc ) ) {
+                    $port_disc = get_the_excerpt();
+                }
+                $port_cpt_link   = sanitize_text_field( get_post_meta( get_the_ID(), 'port_cpt_link', true ) );
+                $port_cpt_target = sanitize_text_field( get_post_meta( get_the_ID(), 'port_cpt_target', true ) );
+                $target_attr     = ( '1' === $port_cpt_target || 'on' === $port_cpt_target ) ? ' target="_blank"' : '';
+                $item_link       = ! empty( $port_cpt_link ) ? esc_url( $port_cpt_link ) : esc_url( get_permalink() );
+                $categories      = get_the_terms( get_the_ID(), 'portfolio_categories' );
+                $cat_names       = ( ! empty( $categories ) && ! is_wp_error( $categories ) ) ? wp_list_pluck( $categories, 'name' ) : array();
+                ?>
+                <div class="col-md-4 project-<?php echo esc_attr( $p_count ); ?>">
+                    <div class="consultup-portfolio-block">
+                        <?php if ( has_post_thumbnail() ) {
+                            the_post_thumbnail( 'full' );
+                        } ?>
+                        <div class="inner-content">
+                            <div class="text clearfix">
+                                <div class="text-left">
+                                    <h5><a href="<?php echo $item_link; ?>"<?php echo $target_attr; ?>><?php the_title(); ?></a></h5>
+                                    <?php if ( ! empty( $cat_names ) ) { ?>
+                                        <div class="consultup-portfolio-category"><p><?php echo esc_html( implode( ', ', $cat_names ) ); ?></p></div>
+                                    <?php } ?>
+                                    <?php if ( ! empty( $port_disc ) ) { ?>
+                                        <p><?php echo esc_html( $port_disc ); ?></p>
+                                    <?php } ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <?php
+                $p_count++;
+            endwhile;
+            wp_reset_postdata();
+        } else {
+        ?>
           <!--item-->
 			<!--col-md-12-->
             <div class="col-md-4 project-one">
@@ -337,6 +385,7 @@ if ( ! function_exists( 'icycp_consultup_portfolio' ) ) :
             </div>
 			</div>
           <!--/item-->
+        <?php } ?>
           <!--item-->
           <!--/item-->
         </div>

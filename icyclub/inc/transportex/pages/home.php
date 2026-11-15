@@ -16,9 +16,8 @@
 		update_post_meta( $newvalue, '_wp_page_template', 'template-homepage.php' );
 		
 		//Set a frontpage option
-		$page = get_page_by_title('Home');
 		update_option( 'show_on_front', 'page' );
-		update_option( 'page_on_front', $page->ID );
+		update_option( 'page_on_front', $newvalue );
 		
 	}
 ?>

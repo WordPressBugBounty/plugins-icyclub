@@ -61,8 +61,8 @@ if ( ! function_exists( 'icycp_consultup_widget_header' ) ) :
     function icycp_consultup_widget_header() {
   ?>
 
-   <div class="col-md-9 col-sm-8">
-            <div class="header-widget row">
+     
+            <div class="header-widget d-flex justify-content-end flex-grow-1">
               <div class="col-md-3 offset-md-3 col-sm-3 col-xs-6 hidden-sm hidden-xs">
                 <div class="ti-header-box">
                   <div class="ti-header-box-icon">
@@ -112,9 +112,8 @@ if ( ! function_exists( 'icycp_consultup_widget_header' ) ) :
           <a href="<?php echo esc_url($consultup_header_widget_four_link); ?>" <?php if( $consultup_header_widget_four_target ==true) { echo "target='_blank'"; } ?> class="btn btn-theme"><?php echo esc_html($consultup_header_widget_four_label); ?></a> 
           <?php endif; ?>
                 </div>
-         </div>
-            </div>
-          </div>
+         </div> 
+    </div>
     <?php } 
 endif;
 add_action('icycp_top_widget_header', 'icycp_consultup_widget_header');
